@@ -1,0 +1,4 @@
+.obsidian/plugins/remotely-save/
+*.key
+*.pem
+config.json
