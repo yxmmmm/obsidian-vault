@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Day Planner template.md",
+                "file": "daliy/2025-11-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day Planner template"
+              "title": "2025-11-21"
             }
           },
           {
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Day Planner template.md",
+                "file": "templates/Daily template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Day Planner template 的大纲"
+              "title": "Daily template 的大纲"
             }
           },
           {
@@ -256,7 +256,8 @@
   },
   "active": "1c04a655fbfb2127",
   "lastOpenFiles": [
-    "templates/Day Planner template.md",
+    "templates/Daily template.md",
+    "daliy/2025-11-21.md",
     "templates",
     "daliy",
     "c语言/函数.md",
