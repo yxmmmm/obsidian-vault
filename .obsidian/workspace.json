@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/函数.md",
+                "file": "c语言/函数调用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "函数"
+              "title": "函数调用"
             }
           },
           {
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c语言/函数.md",
+                "file": "c语言/函数调用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "函数 的反向链接列表"
+              "title": "函数调用 的反向链接列表"
             }
           },
           {
@@ -169,12 +169,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c语言/函数.md",
+                "file": "c语言/函数调用.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "函数 的出链列表"
+              "title": "函数调用 的出链列表"
             }
           },
           {
@@ -265,6 +265,12 @@
   "active": "1c04a655fbfb2127",
   "lastOpenFiles": [
     "c语言/函数.md",
+    "c语言/概念.md",
+    "c语言/函数调用.md",
+    "c语言/数组.md",
+    "c语言/声明.md",
+    "c语言/冒泡.md",
+    "c语言/字符数组.md",
     "daliy/2025-11-21.md",
     "c语言/数组易错.md",
     "templates/Daily template.md",
@@ -275,20 +281,16 @@
     "README.md",
     "1481763534978_.pic_hd.jpg",
     "Pasted image 20251115154908.png",
-    "c语言/冒泡.md",
     "c语言/选择排序.md",
     "Pasted image 20251114153209.png",
     "Pasted image 20251114165934.png",
     "Pasted image 20251114152639.png",
-    "c语言/声明.md",
-    "c语言/数组.md",
     "Pasted image 20251116124539.png",
     "Pasted image 20251115154941.png",
     "Pasted image 20251114152623.png",
     "1481763534978_.pic_hd 1.jpg",
     "1471763534977_.pic.jpg",
     "markdown.md",
-    "c语言/字符数组.md",
     "c语言/字符串处理函数.md",
     "c语言/字符处理函数.md",
     "==声明==.md",
