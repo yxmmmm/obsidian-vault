@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/函数.md",
+                "file": "c语言/函数调用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "函数"
+              "title": "函数调用"
             }
           },
           {
@@ -77,7 +77,8 @@
               "title": "选择排序"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -241,7 +242,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -262,11 +264,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1c04a655fbfb2127",
+  "active": "2e223776d38a9278",
   "lastOpenFiles": [
     "c语言/函数.md",
-    "c语言/概念.md",
     "c语言/函数调用.md",
+    "c语言/概念.md",
     "c语言/数组.md",
     "c语言/声明.md",
     "c语言/冒泡.md",
