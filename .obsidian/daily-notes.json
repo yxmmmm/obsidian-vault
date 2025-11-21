@@ -1,4 +1,5 @@
 {
   "folder": "daliy",
-  "template": ""
+  "template": "templates/Day Planner template",
+  "autorun": true
 }
