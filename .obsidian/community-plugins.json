@@ -8,5 +8,6 @@
   "obsidian-excalidraw-plugin",
   "templater-obsidian",
   "calendar",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-git"
 ]
