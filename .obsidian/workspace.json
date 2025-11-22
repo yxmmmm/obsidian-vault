@@ -53,14 +53,10 @@
             "id": "0d7e8dd948b0f6ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数组易错.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "数组易错"
+              "title": "新标签页"
             }
           },
           {
@@ -78,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,13 +261,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2e223776d38a9278",
+  "active": "e28c0e9b083c906f",
   "lastOpenFiles": [
+    "attachment",
+    "daliy/2025-11-23.md",
+    "未命名.md",
     "c语言/函数调用.md",
     "c语言/概念.md",
     "c语言/声明.md",
     "c语言/选择排序.md",
-    "daliy/2025-11-23.md",
     "daliy/2025-11-21.md",
     "templates/Daily template.md",
     "c语言/函数.md",
@@ -308,7 +306,6 @@
     "未命名.canvas",
     "未命名看板 1.md",
     "未命名看板.md",
-    "创建链接.md",
-    "2025-11-12.md"
+    "创建链接.md"
   ]
 }

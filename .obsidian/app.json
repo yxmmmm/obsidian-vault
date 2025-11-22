@@ -1,4 +1,5 @@
 {
   "promptDelete": true,
-  "trashOption": "local"
+  "trashOption": "system",
+  "attachmentFolderPath": "attachment"
 }
