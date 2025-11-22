@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/函数调用.md",
+                "file": "daliy/2025-11-23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "函数调用"
+              "title": "2025-11-23"
             }
           },
           {
@@ -267,8 +267,9 @@
   },
   "active": "2e223776d38a9278",
   "lastOpenFiles": [
-    "c语言/函数.md",
     "c语言/函数调用.md",
+    "daliy/2025-11-23.md",
+    "c语言/函数.md",
     "c语言/概念.md",
     "c语言/数组.md",
     "c语言/声明.md",
