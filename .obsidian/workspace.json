@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Daily template.md",
+                "file": "daliy/2025-11-23.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily template 的大纲"
+              "title": "2025-11-23 的大纲"
             }
           },
           {
@@ -239,7 +239,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -258,14 +258,17 @@
       "bases:创建新数据库": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "e28c0e9b083c906f",
+  "active": "2e223776d38a9278",
   "lastOpenFiles": [
-    "attachment",
+    "daliy/2025-11-22.md",
     "daliy/2025-11-23.md",
     "未命名.md",
+    "attachment",
     "c语言/函数调用.md",
     "c语言/概念.md",
     "c语言/声明.md",
