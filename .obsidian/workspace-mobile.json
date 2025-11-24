@@ -11,14 +11,10 @@
             "id": "cc909fa253677d33",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/函数调用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "函数调用"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -112,7 +108,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "c语言/函数调用.md",
+            "file": "c语言/概念.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -170,8 +166,11 @@
   },
   "active": "cc909fa253677d33",
   "lastOpenFiles": [
-    "daliy/2025-11-23.md",
+    "daliy/2025-11-24.md",
+    "c语言/概念.md",
+    "c语言/函数.md",
     "c语言/函数调用.md",
+    "daliy/2025-11-23.md",
     "daliy/2025-11-21.md",
     "选择排序.md",
     "Pasted image 20251116124539.png",
