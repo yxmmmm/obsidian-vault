@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/数组与函数.md",
+                "file": "daliy/2025-11-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数组与函数"
+              "title": "2025-11-25"
             }
           },
           {
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c语言/数组与函数.md",
+                "file": "daliy/2025-11-25.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数组与函数 的大纲"
+              "title": "2025-11-25 的大纲"
             }
           },
           {
@@ -275,9 +275,9 @@
   },
   "active": "2e223776d38a9278",
   "lastOpenFiles": [
+    "c语言/数组与函数.md",
     "daliy/2025-11-25.md",
     "c语言/函数.md",
-    "c语言/数组与函数.md",
     "daliy/2025-11-24.md",
     "c语言/函数调用.md",
     "c语言/字符数组.md",
