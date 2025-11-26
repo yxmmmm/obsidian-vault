@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daliy/2025-11-26.md",
+                "file": "c语言/数组与函数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-26"
+              "title": "数组与函数"
             }
           },
           {
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daliy/2025-11-26.md",
+                "file": "c语言/数组与函数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-26 的大纲"
+              "title": "数组与函数 的大纲"
             }
           },
           {
@@ -275,8 +275,9 @@
   },
   "active": "2e223776d38a9278",
   "lastOpenFiles": [
-    "daliy/2025-11-25.md",
     "daliy/2025-11-26.md",
+    "tool",
+    "daliy/2025-11-25.md",
     "c语言/数组与函数.md",
     "c语言/函数.md",
     "daliy/2025-11-24.md",
@@ -310,7 +311,7 @@
     "Pasted image 20251114152623.png",
     "1481763534978_.pic_hd 1.jpg",
     "1471763534977_.pic.jpg",
-    "markdown.md",
+    "tool/markdown.md",
     "==声明==.md",
     "2025-11-19.md",
     "选择法.md",
@@ -318,7 +319,6 @@
     "Excalidraw",
     "数组",
     "未命名.base",
-    "欢迎.md",
     "未命名.canvas"
   ]
 }
