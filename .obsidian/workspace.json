@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daliy/2025-11-25.md",
+                "file": "daliy/2025-11-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-25"
+              "title": "2025-11-26"
             }
           },
           {
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daliy/2025-11-25.md",
+                "file": "daliy/2025-11-26.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-25 的大纲"
+              "title": "2025-11-26 的大纲"
             }
           },
           {
@@ -275,8 +275,9 @@
   },
   "active": "2e223776d38a9278",
   "lastOpenFiles": [
-    "c语言/数组与函数.md",
     "daliy/2025-11-25.md",
+    "daliy/2025-11-26.md",
+    "c语言/数组与函数.md",
     "c语言/函数.md",
     "daliy/2025-11-24.md",
     "c语言/函数调用.md",
@@ -318,7 +319,6 @@
     "数组",
     "未命名.base",
     "欢迎.md",
-    "未命名.canvas",
-    "未命名看板 1.md"
+    "未命名.canvas"
   ]
 }
