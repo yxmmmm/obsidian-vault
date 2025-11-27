@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/冒泡.md",
+                "file": "c语言/存储类别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "冒泡"
+              "title": "存储类别"
             }
           },
           {
@@ -275,17 +275,20 @@
   },
   "active": "0f383c16af306daa",
   "lastOpenFiles": [
-    "函数易错.md",
+    "tool/markdown.md",
+    "c语言/存储类别.md",
+    "c语言/数组.md",
+    "c语言/字符数组.md",
+    "c语言/字符处理函数.md",
+    "c语言/选择排序.md",
+    "c语言/冒泡.md",
+    "c语言/函数易错.md",
     "c语言/函数.md",
     "c语言/数组易错.md",
     "c语言/概念.md",
-    "c语言/数组.md",
-    "c语言/字符数组.md",
     "c语言/数组与函数.md",
     "daliy/2025-11-27.md",
     "c语言/函数调用.md",
-    "c语言/选择排序.md",
-    "c语言/字符处理函数.md",
     "daliy/2025-11-26.md",
     "tool",
     "daliy/2025-11-25.md",
@@ -293,7 +296,6 @@
     "c语言/字符串处理函数.md",
     "c语言/声明.md",
     "daliy/2025-11-23.md",
-    "c语言/冒泡.md",
     "daliy/2025-11-22.md",
     "attachment",
     "daliy/2025-11-21.md",
@@ -313,10 +315,8 @@
     "Pasted image 20251114152623.png",
     "1481763534978_.pic_hd 1.jpg",
     "1471763534977_.pic.jpg",
-    "tool/markdown.md",
     "==声明==.md",
     "2025-11-19.md",
-    "选择法.md",
     "Excalidraw",
     "数组",
     "未命名.base",
