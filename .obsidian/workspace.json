@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/数组与函数.md",
+                "file": "daliy/2025-11-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数组与函数"
+              "title": "2025-11-27"
             }
           },
           {
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c语言/数组与函数.md",
+                "file": "c语言/函数调用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数组与函数 的大纲"
+              "title": "函数调用 的大纲"
             }
           },
           {
@@ -275,16 +275,18 @@
   },
   "active": "2e223776d38a9278",
   "lastOpenFiles": [
+    "c语言/函数调用.md",
+    "daliy/2025-11-27.md",
+    "c语言/选择排序.md",
+    "c语言/字符处理函数.md",
     "daliy/2025-11-26.md",
+    "c语言/数组与函数.md",
     "tool",
     "daliy/2025-11-25.md",
-    "c语言/数组与函数.md",
     "c语言/函数.md",
     "daliy/2025-11-24.md",
-    "c语言/函数调用.md",
     "c语言/字符数组.md",
     "c语言/字符串处理函数.md",
-    "c语言/字符处理函数.md",
     "c语言/数组易错.md",
     "c语言/声明.md",
     "c语言/概念.md",
@@ -292,7 +294,6 @@
     "c语言/冒泡.md",
     "daliy/2025-11-22.md",
     "attachment",
-    "c语言/选择排序.md",
     "daliy/2025-11-21.md",
     "templates/Daily template.md",
     "c语言/数组.md",
