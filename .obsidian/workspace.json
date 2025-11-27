@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c语言/函数调用.md",
+                "file": "c语言/存储类别.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "函数调用 的大纲"
+              "title": "存储类别 的大纲"
             }
           },
           {
@@ -249,12 +249,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,7 +272,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "0f383c16af306daa",
+  "active": "1a79aa4a9bf132e3",
   "lastOpenFiles": [
     "tool/markdown.md",
     "c语言/存储类别.md",
