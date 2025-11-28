@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/存储类别.md",
+                "file": "daliy/2025-11-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "存储类别"
+              "title": "2025-11-28"
             }
           },
           {
@@ -272,8 +272,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1a79aa4a9bf132e3",
+  "active": "0f383c16af306daa",
   "lastOpenFiles": [
+    "daliy/2025-11-28.md",
     "tool/markdown.md",
     "c语言/存储类别.md",
     "c语言/数组.md",
@@ -315,7 +316,6 @@
     "1481763534978_.pic_hd 1.jpg",
     "1471763534977_.pic.jpg",
     "==声明==.md",
-    "2025-11-19.md",
     "Excalidraw",
     "数组",
     "未命名.base",
