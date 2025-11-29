@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daliy/2025-11-29.md",
+                "file": "c语言/指针.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-29"
+              "title": "指针"
             }
           }
         ]
@@ -211,8 +211,9 @@
   },
   "active": "75d74a8d1ece64d8",
   "lastOpenFiles": [
-    "tool/markdown.md",
     "daliy/2025-11-29.md",
+    "c语言/指针.md",
+    "tool/markdown.md",
     "递归调用.md",
     "c语言/函数调用.md",
     "daliy/2025-11-27.md",
@@ -238,7 +239,6 @@
     "daliy/2025-11-23.md",
     "daliy/2025-11-22.md",
     "attachment",
-    "daliy/2025-11-21.md",
     "templates",
     "daliy",
     "c语言",
