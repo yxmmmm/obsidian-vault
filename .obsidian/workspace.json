@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/函数易错.md",
+                "file": "递归调用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "函数易错"
+              "title": "递归调用"
             }
           },
           {
@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -272,26 +272,27 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "0f383c16af306daa",
+  "active": "c0d7a19b236a7a77",
   "lastOpenFiles": [
+    "递归调用.md",
+    "c语言/函数调用.md",
+    "daliy/2025-11-27.md",
+    "c语言/字符串处理函数.md",
+    "c语言/冒泡.md",
+    "c语言/函数.md",
+    "c语言/函数易错.md",
     "c语言/数组易错.md",
     "c语言/声明.md",
-    "c语言/冒泡.md",
     "daliy/2025-11-28.md",
-    "c语言/字符串处理函数.md",
     "c语言/字符处理函数.md",
-    "c语言/函数易错.md",
     "c语言/数组.md",
     "c语言/数组与函数.md",
     "c语言/字符数组.md",
     "c语言/预处理命令.md",
     "c语言/选择排序.md",
     "tool/markdown.md",
-    "c语言/函数调用.md",
-    "c语言/函数.md",
     "c语言/存储类别.md",
     "c语言/概念.md",
-    "daliy/2025-11-27.md",
     "daliy/2025-11-26.md",
     "tool",
     "daliy/2025-11-25.md",
@@ -305,7 +306,6 @@
     "daliy",
     "c语言",
     "main.js.backup",
-    "README.md",
     "1481763534978_.pic_hd.jpg",
     "Pasted image 20251115154908.png",
     "Pasted image 20251114153209.png",
