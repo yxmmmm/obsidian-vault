@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/指针.md",
+                "file": "c语言/函数易错.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "指针"
+              "title": "函数易错"
             }
           }
         ]
@@ -211,23 +211,23 @@
   },
   "active": "75d74a8d1ece64d8",
   "lastOpenFiles": [
-    "daliy/2025-11-29.md",
+    "c语言/数组易错.md",
+    "c语言/字符串处理函数.md",
+    "c语言/字符数组.md",
+    "c语言/数组.md",
     "c语言/指针.md",
+    "daliy/2025-11-29.md",
     "tool/markdown.md",
     "递归调用.md",
     "c语言/函数调用.md",
     "daliy/2025-11-27.md",
-    "c语言/字符串处理函数.md",
     "c语言/冒泡.md",
     "c语言/函数.md",
     "c语言/函数易错.md",
-    "c语言/数组易错.md",
     "c语言/声明.md",
     "daliy/2025-11-28.md",
     "c语言/字符处理函数.md",
-    "c语言/数组.md",
     "c语言/数组与函数.md",
-    "c语言/字符数组.md",
     "c语言/预处理命令.md",
     "c语言/选择排序.md",
     "c语言/存储类别.md",
