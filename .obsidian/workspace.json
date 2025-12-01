@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/递归调用.md",
+                "file": "c语言/字符数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "递归调用"
+              "title": "字符数组"
             }
           }
         ]
@@ -209,24 +209,25 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e28c0e9b083c906f",
+  "active": "75d74a8d1ece64d8",
   "lastOpenFiles": [
+    "c语言/函数概念.md",
+    "c语言/字符处理函数.md",
+    "c语言/字符串处理函数.md",
+    "c语言/递归调用.md",
     "c语言/函数易错.md",
     "c语言/数组易错.md",
-    "c语言/字符串处理函数.md",
     "c语言/字符数组.md",
     "c语言/数组.md",
     "c语言/指针.md",
     "daliy/2025-11-29.md",
     "tool/markdown.md",
-    "c语言/递归调用.md",
     "c语言/函数调用.md",
     "daliy/2025-11-27.md",
     "c语言/冒泡.md",
     "c语言/函数.md",
     "c语言/声明.md",
     "daliy/2025-11-28.md",
-    "c语言/字符处理函数.md",
     "c语言/数组与函数.md",
     "c语言/预处理命令.md",
     "c语言/选择排序.md",
@@ -237,7 +238,6 @@
     "daliy/2025-11-25.md",
     "daliy/2025-11-24.md",
     "daliy/2025-11-23.md",
-    "daliy/2025-11-22.md",
     "attachment",
     "templates",
     "daliy",
