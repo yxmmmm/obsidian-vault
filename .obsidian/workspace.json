@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daliy/2025-12-01.md",
+                "file": "野指针.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-01"
+              "title": "野指针"
             }
           }
         ]
@@ -211,8 +211,14 @@
   },
   "active": "75d74a8d1ece64d8",
   "lastOpenFiles": [
-    "c语言/函数概念.md",
+    "c语言/指针.md",
+    "野指针.md",
+    "daliy/2025-12-02.md",
     "daliy/2025-12-01.md",
+    "daliy/2025-11-21.md",
+    "daliy/2025-11-22.md",
+    "daliy/2025-11-23.md",
+    "c语言/函数概念.md",
     "c语言/函数易错.md",
     "c语言/冒泡.md",
     "c语言/声明.md",
@@ -221,7 +227,6 @@
     "c语言/数组与函数.md",
     "c语言/选择排序.md",
     "c语言/预处理命令.md",
-    "c语言/指针.md",
     "c语言/字符处理函数.md",
     "c语言/字符串处理函数.md",
     "c语言/字符数组.md",
@@ -232,12 +237,7 @@
     "c语言/函数调用.md",
     "daliy/2025-11-27.md",
     "c语言/函数.md",
-    "daliy/2025-11-28.md",
-    "c语言/概念.md",
-    "daliy/2025-11-26.md",
     "tool",
-    "daliy/2025-11-25.md",
-    "daliy/2025-11-24.md",
     "attachment",
     "templates",
     "daliy",
