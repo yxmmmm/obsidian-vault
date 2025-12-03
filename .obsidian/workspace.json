@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daliy/2025-12-02.md",
+                "file": "c语言/数组/数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-02"
+              "title": "数组"
+            }
+          },
+          {
+            "id": "dfb2e96c1188fbd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c语言/字符串/字符串.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "字符串"
+            }
+          },
+          {
+            "id": "717b9f823b3b8310",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c语言/字符串/字符串好题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "字符串好题"
+            }
+          },
+          {
+            "id": "963497f9fa9f6ed8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c语言/函数/存储类别.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "存储类别"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,40 +252,44 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "75d74a8d1ece64d8",
+  "active": "717b9f823b3b8310",
   "lastOpenFiles": [
-    "c语言/指针运算.md",
-    "c语言/指针.md",
-    "c语言/野指针.md",
-    "c语言/预处理命令.md",
+    "c语言/指针/指针.md",
+    "c语言/指针/指针.md",
+    "c语言/字符串/字符串.md",
+    "c语言/指针",
+    "c语言/数组/数组.md",
+    "c语言/字符串",
+    "c语言/排序",
+    "c语言/函数/函数.md",
+    "c语言/函数/存储类别.md",
+    "c语言/字符串/字符数组.md",
+    "c语言/字符串/字符串好题.md",
+    "c语言/字符串/字符串处理函数.md",
+    "c语言/字符串/字符处理函数.md",
+    "c语言/排序/冒泡.md",
+    "c语言/数组",
+    "c语言/函数/递归调用.md",
+    "c语言/数组/数组与函数.md",
+    "c语言/数组/数组易错.md",
+    "c语言/函数",
+    "c语言/指针/指针运算.md",
+    "c语言/指针/野指针.md",
+    "c语言/排序/选择排序.md",
+    "c语言/函数/预处理命令.md",
     "daliy/2025-12-02.md",
     "daliy/2025-12-01.md",
     "daliy/2025-11-21.md",
     "daliy/2025-11-22.md",
     "daliy/2025-11-23.md",
-    "c语言/函数概念.md",
-    "c语言/函数易错.md",
-    "c语言/冒泡.md",
-    "c语言/声明.md",
-    "c语言/数组.md",
-    "c语言/数组易错.md",
-    "c语言/数组与函数.md",
-    "c语言/选择排序.md",
-    "c语言/字符处理函数.md",
-    "c语言/字符串处理函数.md",
-    "c语言/字符数组.md",
-    "c语言/存储类别.md",
-    "c语言/递归调用.md",
-    "daliy/2025-11-29.md",
-    "tool/markdown.md",
-    "c语言/函数调用.md",
-    "daliy/2025-11-27.md",
+    "c语言/函数/函数概念.md",
+    "c语言/函数/函数易错.md",
+    "c语言/函数/声明.md",
     "tool",
     "attachment",
     "templates",
     "daliy",
     "c语言",
-    "main.js.backup",
     "1481763534978_.pic_hd.jpg",
     "Pasted image 20251115154908.png",
     "Pasted image 20251114153209.png",
@@ -253,9 +300,6 @@
     "Pasted image 20251114152623.png",
     "1481763534978_.pic_hd 1.jpg",
     "1471763534977_.pic.jpg",
-    "Excalidraw",
-    "数组",
-    "未命名.base",
     "未命名.canvas"
   ]
 }
