@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/排序/冒泡.md",
+                "file": "c语言/排序/选择排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "冒泡"
+              "title": "选择排序"
             }
           },
           {
@@ -296,6 +296,7 @@
   },
   "active": "0bef7576e09c1624",
   "lastOpenFiles": [
+    "c语言/排序/冒泡.md",
     "daliy/2025-12-08.md",
     "c语言/指针/指针索引.md",
     "c语言/指针/指针运算.md",
@@ -319,7 +320,6 @@
     "c语言/排序",
     "c语言/函数/存储类别.md",
     "c语言/字符串/字符数组.md",
-    "c语言/排序/冒泡.md",
     "c语言/数组",
     "c语言/数组/数组易错.md",
     "c语言/函数",
