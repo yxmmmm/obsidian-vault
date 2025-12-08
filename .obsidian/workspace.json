@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/指针/指针与数组.md",
+                "file": "c语言/指针/指针数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "指针与数组"
+              "title": "指针数组"
             }
           },
           {
@@ -283,11 +283,13 @@
   "active": "c62c7fabdcbfca9c",
   "lastOpenFiles": [
     "c语言/指针/指针索引.md",
-    "c语言/指针/指针与数组.md",
     "c语言/指针/指针运算.md",
+    "c语言/指针/指针与数组.md",
+    "c语言/指针/指针数组.md",
+    "c语言/指针/二级指针.md",
+    "c语言/指针/野指针.md",
     "c语言/数组/数组与函数.md",
     "c语言/数组/未命名.md",
-    "c语言/指针/野指针.md",
     "c语言/字符串/字符处理函数.md",
     "c语言/字符串/字符串处理函数.md",
     "c语言/字符串/字符串好题.md",
@@ -311,8 +313,6 @@
     "daliy/2025-12-02.md",
     "daliy/2025-12-01.md",
     "daliy/2025-11-21.md",
-    "daliy/2025-11-22.md",
-    "daliy/2025-11-23.md",
     "tool",
     "attachment",
     "templates",
