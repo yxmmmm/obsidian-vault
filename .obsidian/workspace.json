@@ -308,10 +308,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e28c0e9b083c906f",
+  "active": "a3450ce1ab68f5a7",
   "lastOpenFiles": [
-    "c语言/数组/数组与函数.md",
+    "tool/markdown.md",
     "c语言/结构体.md",
+    "c语言/数组/数组与函数.md",
     "c语言/字符串/字符串处理函数.md",
     "c语言/字符串/字符处理函数.md",
     "c语言/排序/选择排序.md",
@@ -340,7 +341,6 @@
     "c语言/数组/数组易错.md",
     "c语言/函数",
     "c语言/函数/预处理命令.md",
-    "daliy/2025-12-02.md",
     "tool",
     "attachment",
     "templates",
