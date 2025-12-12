@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/结构体.md",
+                "file": "daliy/2025-12-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "结构体"
+              "title": "2025-12-12"
             }
           },
           {
@@ -310,15 +310,16 @@
   },
   "active": "a3450ce1ab68f5a7",
   "lastOpenFiles": [
-    "tool/markdown.md",
+    "daliy/2025-12-12.md",
+    "c语言/指针/指针索引.md",
     "c语言/结构体.md",
+    "tool/markdown.md",
     "c语言/数组/数组与函数.md",
     "c语言/字符串/字符串处理函数.md",
     "c语言/字符串/字符处理函数.md",
     "c语言/排序/选择排序.md",
     "c语言/排序/冒泡.md",
     "daliy/2025-12-08.md",
-    "c语言/指针/指针索引.md",
     "c语言/指针/指针运算.md",
     "c语言/指针/指针与数组.md",
     "c语言/指针/指针数组.md",
@@ -340,7 +341,6 @@
     "c语言/数组",
     "c语言/数组/数组易错.md",
     "c语言/函数",
-    "c语言/函数/预处理命令.md",
     "tool",
     "attachment",
     "templates",
