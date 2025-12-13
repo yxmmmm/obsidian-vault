@@ -322,8 +322,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3457c2c2d9e1fc09",
+  "active": "1a79aa4a9bf132e3",
   "lastOpenFiles": [
+    "daliy/2025-12-13.md",
     "daliy/2025-12-12.md",
     "期末  from Gemini.md",
     "c语言/指针/指针索引.md",
@@ -352,7 +353,6 @@
     "c语言/字符串",
     "c语言/排序",
     "c语言/函数/存储类别.md",
-    "c语言/字符串/字符数组.md",
     "c语言/数组",
     "c语言/函数",
     "tool",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/预处理命令.md",
+                "file": "c语言/指针/指针数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "预处理命令"
+              "title": "指针数组"
             }
           }
         ]
@@ -170,6 +170,11 @@
   },
   "active": "672fff2b02d70a80",
   "lastOpenFiles": [
+    "c语言/指针/指针运算.md",
+    "c语言/指针/指针与数组.md",
+    "c语言/指针/野指针.md",
+    "c语言/指针/指针索引.md",
+    "daliy/2025-12-13.md",
     "c语言/存储类别.md",
     "daliy/2025-12-01.md",
     "c语言/递归调用.md",
@@ -193,16 +198,11 @@
     "daliy/2025-11-21.md",
     "选择排序.md",
     "Pasted image 20251116124539.png",
-    "字符串处理函数.md",
     "Pasted image 20251116125009.png",
     "Pasted image 20251115154941.png",
     "Pasted image 20251115154908.png",
-    "字符数组.md",
-    "字符处理函数.md",
     "Pasted image 20251115155012.png",
     "Pasted image 20251115154817.png",
-    "函数.md",
-    "markdown.md",
     "Pasted image 20251114152639.png",
     "Pasted image 20251113201355.png",
     "Pasted image 20251114153209.png",
