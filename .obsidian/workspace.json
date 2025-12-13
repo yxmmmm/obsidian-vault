@@ -8,115 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75d74a8d1ece64d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/数组/数组.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "数组"
-            }
-          },
-          {
-            "id": "dfb2e96c1188fbd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/字符串/字符串.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "字符串"
-            }
-          },
-          {
-            "id": "717b9f823b3b8310",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/数组/数组与函数.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "数组与函数"
-            }
-          },
-          {
-            "id": "dc86110fd54cf358",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/指针/指针运算.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "指针运算"
-            }
-          },
-          {
-            "id": "c62c7fabdcbfca9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/指针/指针数组.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "指针数组"
-            }
-          },
-          {
-            "id": "0bef7576e09c1624",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/字符串/字符串处理函数.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "字符串处理函数"
-            }
-          },
-          {
-            "id": "a3450ce1ab68f5a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daliy/2025-12-12.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-12-12"
-            }
-          },
-          {
             "id": "3457c2c2d9e1fc09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "期末  from Gemini.md",
+                "file": "daliy/2025-12-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "期末  from Gemini"
+              "title": "2025-12-13"
             }
           },
           {
@@ -133,8 +35,7 @@
               "title": "存储类别"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -322,23 +223,23 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1a79aa4a9bf132e3",
+  "active": "3457c2c2d9e1fc09",
   "lastOpenFiles": [
-    "daliy/2025-12-13.md",
     "daliy/2025-12-12.md",
+    "c语言/字符串/字符串处理函数.md",
+    "c语言/指针/指针数组.md",
+    "c语言/指针/指针运算.md",
+    "c语言/数组/数组与函数.md",
+    "daliy/2025-12-13.md",
     "期末  from Gemini.md",
     "c语言/指针/指针索引.md",
     "c语言/结构体.md",
     "tool/markdown.md",
-    "c语言/数组/数组与函数.md",
-    "c语言/字符串/字符串处理函数.md",
     "c语言/字符串/字符处理函数.md",
     "c语言/排序/选择排序.md",
     "c语言/排序/冒泡.md",
     "daliy/2025-12-08.md",
-    "c语言/指针/指针运算.md",
     "c语言/指针/指针与数组.md",
-    "c语言/指针/指针数组.md",
     "c语言/指针/二级指针.md",
     "c语言/指针/野指针.md",
     "c语言/数组/未命名.md",
