@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about.md",
+                "file": "期末  from Gemini.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "期末  from Gemini"
             }
           },
           {
@@ -240,8 +240,8 @@
   },
   "active": "ab14c250a0608667",
   "lastOpenFiles": [
-    "tool/markdown.md",
     "about.md",
+    "tool/markdown.md",
     "c语言/函数/存储类别.md",
     "daliy/2025-12-13.md",
     "daliy/2025-12-14.md",
