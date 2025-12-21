@@ -35,7 +35,9 @@ During the first semester of my **freshman year**, I learned the basics of C lan
 	Bought after my high school graduation. 
 	All my notes are kept in the **Goodnotes** app.
 	**Most important function:** Rhythm Games machine! (∩^o^)⊃━☆ﾟ.*･｡!
-	![|300](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault89ae3cb87caf67065e51c7b0c7437036.jpg)
+	![|200](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault89ae3cb87caf67065e51c7b0c7437036.jpg)
+	![4c5336ba021e081ddb6f23e06f4bd99d_720.jpg|200](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault4c5336ba021e081ddb6f23e06f4bd99d_720.jpg)
+
 	
 - **OnePlus Ace 3** I love the freedom of a rooted Android phone.
 	![image.png|200](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault20251221133826.png)
