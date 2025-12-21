@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "ab14c250a0608667",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "about"
+            }
+          },
+          {
             "id": "963497f9fa9f6ed8",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "存储类别"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,19 +238,21 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3457c2c2d9e1fc09",
+  "active": "ab14c250a0608667",
   "lastOpenFiles": [
+    "tool/markdown.md",
+    "about.md",
+    "c语言/函数/存储类别.md",
+    "daliy/2025-12-13.md",
     "daliy/2025-12-14.md",
     "daliy/2025-12-12.md",
     "c语言/字符串/字符串处理函数.md",
     "c语言/指针/指针数组.md",
     "c语言/指针/指针运算.md",
     "c语言/数组/数组与函数.md",
-    "daliy/2025-12-13.md",
     "期末  from Gemini.md",
     "c语言/指针/指针索引.md",
     "c语言/结构体.md",
-    "tool/markdown.md",
     "c语言/字符串/字符处理函数.md",
     "c语言/排序/选择排序.md",
     "c语言/排序/冒泡.md",
@@ -249,8 +266,6 @@
     "c语言/字符串/字符串索引.md",
     "c语言/函数/递归调用.md",
     "c语言/函数/函数索引.md",
-    "c语言/数组/数组索引.md",
-    "daliy/2025-12-03.md",
     "c语言/指针",
     "c语言/字符串",
     "c语言/排序",
