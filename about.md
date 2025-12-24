@@ -30,15 +30,15 @@ During the first semester of my **freshman year**, I learned the basics of C lan
 
 ## My Devices
 - **MacBook Air (M1 Chip)** My primary productivity tool. Thanks to macOS, I stay focused and avoid getting addicted to video games. ξ( ✿＞◡❛)
-	![image.png|200](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault20251221131155.png)
--  **iPad Pro 2024** 
-	Bought after my high school graduation. 
+	<img src="https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault20251221131155.png" width="200" alt="MacBook Air">
+
+-  **iPad Pro 2024** Bought after my high school graduation. 
 	All my notes are kept in the **Goodnotes** app.
 	**Most important function:** Rhythm Games machine! (∩^o^)⊃━☆ﾟ.*･｡!
-	![|200](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault89ae3cb87caf67065e51c7b0c7437036.jpg)
-	![4c5336ba021e081ddb6f23e06f4bd99d_720.jpg|200](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault4c5336ba021e081ddb6f23e06f4bd99d_720.jpg)
+	<img src="https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault89ae3cb87caf67065e51c7b0c7437036.jpg" width="200" alt="iPad Pro">
+	<img src="https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault4c5336ba021e081ddb6f23e06f4bd99d_720.jpg" width="200" alt="Rhythm Game">
 
-	
 - **OnePlus Ace 3** I love the freedom of a rooted Android phone.
-	![image.png|200](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault20251221133826.png)
+	<img src="https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault20251221133826.png" width="200" alt="OnePlus Ace 3">
+
 - **Kindle Ver. 10** For reading.
