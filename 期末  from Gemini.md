@@ -77,3 +77,17 @@
         
     - **📅 1月15日 10:15 考高数**
 
+$$
+\begin{aligned}
+\int_{a}^{+\infty} f(t) \,dt &= \lim_{x \to +\infty} \int_{a}^{x} f(t) \,dt \\
+&= \lim_{x \to +\infty} [F(x) - F(a)] \\
+&= \lim_{x \to +\infty} F(x) - F(a)
+\end{aligned}
+$$
+$$
+\mathbf{A} = \begin{pmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{pmatrix}
+$$
