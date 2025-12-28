@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/函数/函数调用.md",
+                "file": "daliy/2025-12-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "函数调用"
+              "title": "2025-12-28"
             }
           }
         ]
@@ -194,6 +194,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -209,8 +210,9 @@
   },
   "active": "af91d2060bcd9106",
   "lastOpenFiles": [
-    "c语言/函数/递归调用.md",
     "c语言/函数/函数调用.md",
+    "daliy/2025-12-28.md",
+    "c语言/函数/递归调用.md",
     "c语言/函数/函数概念.md",
     "c语言/字符串/字符处理函数.md",
     "c语言/数组/数组索引.md",
@@ -234,7 +236,6 @@
     "c语言/指针/指针与数组.md",
     "c语言/指针/指针索引.md",
     "c语言/指针/指针数组.md",
-    "c语言/指针/二级指针.md",
     "blog/math",
     "blog/monthly report",
     "blog",

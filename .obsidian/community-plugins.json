@@ -6,5 +6,8 @@
   "templater-obsidian",
   "calendar",
   "obsidian-image-auto-upload-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "dataview",
+  "obsidian-excalidraw-plugin",
+  "heatmap-calendar"
 ]
