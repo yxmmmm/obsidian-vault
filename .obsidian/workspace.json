@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daliy/2025-12-28.md",
+                "file": "daliy/2025-12-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-28"
+              "title": "2025-12-22"
             }
           }
         ]
@@ -209,8 +209,11 @@
   },
   "active": "c7ba0a70b56956af",
   "lastOpenFiles": [
-    "c语言/字符串/字符串好题.md",
     "daliy/2025-12-28.md",
+    "daliy/2025-12-22.md",
+    "daliy/2025-12-26.md",
+    "daliy/2025-12-25.md",
+    "c语言/字符串/字符串好题.md",
     "blog/monthly report/2025-12.md",
     "结构体易错.md",
     "blog/about.md",
@@ -218,7 +221,6 @@
     "c语言/结构体.md",
     "c语言/指针/指针索引.md",
     "期末  from Gemini.md",
-    "daliy/2025-12-26.md",
     "blog/math",
     "blog/math/关于和式极限的求解方法.md",
     "tool/markdown.md",
@@ -230,8 +232,6 @@
     "c语言/指针/野指针.md",
     "daliy/2025-11-23.md",
     "c语言/字符串/字符串处理函数.md",
-    "daliy/2025-12-25.md",
-    "daliy/2025-12-22.md",
     "daliy/2025-12-13.md",
     "未命名.base",
     "daliy/2025-12-14.md",
