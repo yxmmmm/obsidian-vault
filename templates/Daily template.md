@@ -1,5 +1,6 @@
 # Daily
 **这是{{date:YYYY-MM-DD}}的日记
+#daily
 
 ## 学习成果
 
