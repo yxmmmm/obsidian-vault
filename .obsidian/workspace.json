@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "统计.md",
+                "file": "daily/2026-01-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-01-03"
             }
           }
         ]
@@ -210,6 +210,7 @@
   },
   "active": "7851d7c34d3d42c4",
   "lastOpenFiles": [
+    "统计.md",
     "daily/2026-01-03.md",
     "daily/2025-12-22.md",
     "未命名.md",
@@ -217,7 +218,6 @@
     "c语言/排序/选择排序.md",
     "blog/monthly report/2025-12.md",
     "blog/about.md",
-    "统计.md",
     "期末  from Gemini.md",
     "tool/markdown.md",
     "daily/2025-12-28.md",
