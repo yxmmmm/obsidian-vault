@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-01-04.md",
+                "file": "daily/2026-01-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-04"
+              "title": "2026-01-05"
             }
           }
         ]
@@ -210,11 +210,12 @@
   },
   "active": "7851d7c34d3d42c4",
   "lastOpenFiles": [
+    "daily/2026-01-04.md",
+    "daily/2026-01-05.md",
     "tool/markdown.md",
     "templates/Daily template.md",
     "统计.md",
     "c语言/排序/选择排序.md",
-    "daily/2026-01-04.md",
     "daily/2026-01-03.md",
     "daily/2025-12-22.md",
     "未命名.md",
@@ -236,7 +237,6 @@
     "c语言/函数/函数索引.md",
     "c语言/函数/存储类别.md",
     "c语言/函数/预处理命令.md",
-    "blog/math/关于和式极限的求解方法.md",
     "blog/math",
     "blog/monthly report",
     "blog",
