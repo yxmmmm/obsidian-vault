@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/algorithm/洛谷P1217普及-.md",
+                "file": "daily/2026-01-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "洛谷P1217普及-"
+              "title": "2026-01-06"
             }
           }
         ],
@@ -225,8 +225,9 @@
   },
   "active": "2a33e2372ac13849",
   "lastOpenFiles": [
-    "c语言/字符串/字符串好题.md",
     "blog/algorithm/洛谷P1217普及-.md",
+    "daily/2026-01-06.md",
+    "c语言/字符串/字符串好题.md",
     "blog/about.md",
     "blog/algorithm",
     "daily/2026-01-05.md",
@@ -252,7 +253,6 @@
     "c语言/字符串/字符数组.md",
     "c语言/函数/结构体易错.md",
     "c语言/函数/函数索引.md",
-    "c语言/函数/存储类别.md",
     "blog/math",
     "blog/monthly report",
     "blog",
