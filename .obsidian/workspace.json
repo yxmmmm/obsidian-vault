@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "统计.md",
+                "file": "daily/2026-01-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-01-10"
             }
           }
         ],
@@ -225,20 +225,20 @@
   },
   "active": "35f03214159aff3b",
   "lastOpenFiles": [
-    "tool/LaTeX.md",
+    "[[{{yesterday}}]].md",
     "daily/2026-01-10.md",
+    "daily/2026-01-05.md",
+    "统计.md",
+    "tool/LaTeX.md",
     "templates/Daily template1.md",
     "Daily template.md",
     "daily/2026-01-06.md",
-    "[[{{yesterday}}]].md",
     "blog/algorithm/洛谷P1217普及-.md",
     "c语言/字符串/字符串好题.md",
     "blog/about.md",
     "blog/algorithm",
-    "daily/2026-01-05.md",
     "daily/2026-01-04.md",
     "tool/markdown.md",
-    "统计.md",
     "c语言/排序/选择排序.md",
     "daily/2026-01-03.md",
     "daily/2025-12-22.md",
