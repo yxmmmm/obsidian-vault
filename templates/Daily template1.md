@@ -1,8 +1,9 @@
 ---
-date: {{date}}
+date:
+  "{ date }":
 tags: daily-note
-mood: 
-energy: 
+mood:
+energy:
 ---
 
 # 📅 {{date:YYYY年MM月DD日}}
@@ -15,7 +16,7 @@ energy:
 - [ ] 
 
 ## 📥 任务清单 (Tasks)
-- [ ] 
+
 
 ## 🕒 时间轴 / 随时记 (Log)
 > 采用“间歇性日记”法，记录下几点做了什么，或当下的感悟。
@@ -41,9 +42,9 @@ energy:
 
 ---
 ## 🔗 最近的日记
-> 需要安装 Dataview 插件方可显示
 ```dataview
 list from #daily-note 
 where file.name != this.file.name
 sort file.name desc
 limit 5
+```
