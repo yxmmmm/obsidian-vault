@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-01-10.md",
+                "file": "daily/2026-01-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-10"
+              "title": "2026-01-15"
             }
           }
         ],
@@ -225,8 +225,9 @@
   },
   "active": "35f03214159aff3b",
   "lastOpenFiles": [
-    "[[{{yesterday}}]].md",
     "daily/2026-01-10.md",
+    "daily/2026-01-15.md",
+    "[[{{yesterday}}]].md",
     "daily/2026-01-05.md",
     "统计.md",
     "tool/LaTeX.md",
@@ -252,7 +253,6 @@
     "c语言/函数/递归调用.md",
     "c语言/函数/函数概念.md",
     "c语言/字符串/字符处理函数.md",
-    "c语言/数组/数组索引.md",
     "blog/math",
     "blog/monthly report",
     "blog",
