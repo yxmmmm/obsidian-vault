@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Gemini给的algorithm建议"
             }
+          },
+          {
+            "id": "fdf4dcc39dd8c716",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.4"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,6 +235,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -230,14 +243,13 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
       "templater-obsidian:Templater": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0e7d7232989256ff",
+  "active": "fdf4dcc39dd8c716",
   "lastOpenFiles": [
     "daily/2026-01-16.md",
     "daily/2026-01-15.md",
