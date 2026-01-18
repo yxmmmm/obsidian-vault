@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Daily template1.md",
+                "file": "blog/algorithm/洛谷P1217普及-.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily template1"
+              "title": "洛谷P1217普及-"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c语言/存储类别.md",
+                "file": "blog/algorithm/洛谷P1217普及-.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "存储类别 的大纲"
+              "title": "洛谷P1217普及- 的大纲"
             }
           },
           {
@@ -201,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -225,6 +225,9 @@
   },
   "active": "0e7d7232989256ff",
   "lastOpenFiles": [
+    "hdd_diagram.svg",
+    "blog/algorithm/洛谷P1217普及-.md",
+    "templates/Daily template1.md",
     "Gemini给的algorithm建议.md",
     "daily/2026-01-16.md",
     "daily/2026-01-15.md",
@@ -233,10 +236,8 @@
     "daily/2026-01-05.md",
     "统计.md",
     "tool/LaTeX.md",
-    "templates/Daily template1.md",
     "Daily template.md",
     "daily/2026-01-06.md",
-    "blog/algorithm/洛谷P1217普及-.md",
     "c语言/字符串/字符串好题.md",
     "blog/about.md",
     "blog/algorithm",
@@ -252,7 +253,6 @@
     "Excalidraw/Drawing 2025-12-28 19.51.09.excalidraw.md",
     "Excalidraw",
     "c语言/函数/函数调用.md",
-    "c语言/函数/递归调用.md",
     "blog/math",
     "blog/monthly report",
     "blog",
@@ -270,7 +270,6 @@
     "Pasted image 20251115154941.png",
     "Pasted image 20251114152623.png",
     "1481763534978_.pic_hd 1.jpg",
-    "1471763534977_.pic.jpg",
     "未命名.canvas"
   ]
 }
