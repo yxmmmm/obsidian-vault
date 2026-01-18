@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "id": "f39a9d33-6275-49f5-87a2-3fbe6204f9e8",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T13:59:07.433Z",
+      "updateAt": "2026-01-18T13:59:07.433Z",
+      "components": [
+        {
+          "componentId": "71d50b5b-1588-476f-902f-1d5a78d400ec"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "71d50b5b-1588-476f-902f-1d5a78d400ec",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T13:59:11.188Z",
+      "updateAt": "2026-01-18T13:59:11.188Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "850ea505-6660-4c9a-bb88-17e6b44ac8fb",
+        "options": {}
+      },
+      "coverCoordinate": {
+        "x": "50%",
+        "y": "50%"
+      }
+    }
+  ],
+  "rootComponentId": "f39a9d33-6275-49f5-87a2-3fbe6204f9e8",
+  "version": 3
+}

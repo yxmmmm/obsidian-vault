@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f2f230bd65ce9d59",
+        "id": "ae093629be14cf9d",
         "type": "tabs",
         "children": [
           {
-            "id": "18468c4a0a3d1bf7",
+            "id": "988761a6428fe1e6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "daily/2026-01-18.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2026-01-18"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8df733147fa6d689",
@@ -206,9 +211,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "18468c4a0a3d1bf7",
+  "active": "988761a6428fe1e6",
   "lastOpenFiles": [
     "统计.md",
+    "components/view/组件5.components",
+    "c语言/函数/预处理命令.md",
+    "c语言/函数/声明.md",
+    "c语言/函数/结构体.md",
+    "c语言/函数/函数概念.md",
+    "c语言/函数/递归调用.md",
+    "c语言/函数/存储类别.md",
     "tool/LaTeX.md",
     "未命名.md",
     "daily/2026-01-18.md",
@@ -235,12 +247,7 @@
     "daily/2025-11-21.md",
     "daily/2026-01-10.md",
     "期末  from Gemini.md",
-    "c语言/函数/递归调用.md",
-    "c语言/函数/存储类别.md",
-    "daily/2025-11-23.md",
     "DS_Store",
-    "未命名 1.base",
-    "未命名.base",
-    "daily/2026-01-15.md"
+    "未命名 1.base"
   ]
 }
