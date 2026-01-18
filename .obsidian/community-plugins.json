@@ -13,5 +13,6 @@
   "homepage",
   "obsidian-tasks-plugin",
   "components",
-  "contribution-graph"
+  "contribution-graph",
+  "obsidian-advanced-uri"
 ]

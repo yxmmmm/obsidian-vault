@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Daily template1.md",
+                "file": "统计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily template1"
+              "title": "统计"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Daily template1.md",
+                "file": "统计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily template1 的大纲"
+              "title": "统计 的大纲"
             }
           },
           {
@@ -211,16 +211,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "daily/2026-01-18.md",
     "统计.md",
+    "Gemini给的algorithm建议.md",
+    "templates/Daily template1.md",
     "components/view/组合.components",
     "components/view",
     "components",
-    "templates/Daily template1.md",
-    "daily/2026-01-18.md",
     "daily/2025-11-22.md",
     "daily/2025-11-21.md",
     "daily/2026-01-10.md",
-    "Gemini给的algorithm建议.md",
     "期末  from Gemini.md",
     "未命名.md",
     "blog/monthly report/2025-12.md",
