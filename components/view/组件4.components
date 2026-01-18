@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "id": "91d3890f-9bee-4155-9ef3-7d594f8e2254",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T13:15:29.376Z",
+      "updateAt": "2026-01-18T13:15:29.376Z",
+      "components": [
+        {
+          "componentId": "7ec3731d-e2b5-45a1-be67-5ec218c5dd50"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "7ec3731d-e2b5-45a1-be67-5ec218c5dd50",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T13:15:48.641Z",
+      "updateAt": "2026-01-18T13:15:48.641Z",
+      "components": [
+        {
+          "componentId": "85f73914-48bc-494d-9459-0926da25c27d"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "85f73914-48bc-494d-9459-0926da25c27d",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "图表",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T13:16:18.707Z",
+      "updateAt": "2026-01-18T13:17:42.359Z",
+      "chartType": "bar",
+      "filter": {
+        "id": "0058f0e3-0b82-4efe-853c-201e8649be17",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "ebb28a70-1905-470c-9d49-bbf4db1dd554",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#blog",
+            "conditions": []
+          },
+          {
+            "id": "e59b67a0-a6a6-45bb-81df-f41f53f078e0",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#函数",
+            "conditions": []
+          }
+        ]
+      },
+      "labelProperty": "",
+      "labelFormat": "$none",
+      "valueProperty": "$file_count",
+      "valuePrecision": 0,
+      "sortField": "xAxisValue",
+      "sortOrder": "asc",
+      "maxHeight": 300,
+      "chartColorSet": "default",
+      "chartLabelPosition": "top",
+      "enableMarkLine": false,
+      "markLineValue": 20,
+      "showDataValue": false,
+      "valueScaleStartFromZero": true,
+      "smoothLine": false,
+      "fillArea": false,
+      "options": {}
+    }
+  ],
+  "rootComponentId": "91d3890f-9bee-4155-9ef3-7d594f8e2254",
+  "version": 3
+}

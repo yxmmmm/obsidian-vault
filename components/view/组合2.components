@@ -24,13 +24,13 @@
       "id": "3ca96456-c3fb-4b59-b4d4-0247381521d5",
       "type": "multi",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "组合",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showTitle": true,
       "showShadow": false,
       "createAt": "2026-01-18T11:35:48.098Z",
-      "updateAt": "2026-01-18T11:37:05.729Z",
+      "updateAt": "2026-01-18T13:14:28.773Z",
       "components": [
         {
           "componentId": "dce07605-19e6-46f9-bfcb-4f496849f3a5",

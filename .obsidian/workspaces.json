@@ -8,6 +8,7 @@
           {
             "id": "9d086532c511048d",
             "type": "tabs",
+            "dimension": 63.13056379821958,
             "children": [
               {
                 "id": "220af336afe2999c",
@@ -28,6 +29,7 @@
           {
             "id": "d2ebaa57e3a28800",
             "type": "split",
+            "dimension": 36.86943620178042,
             "children": [
               {
                 "id": "d226168f69bdfcc6",
@@ -256,8 +258,8 @@
           "homepage:Open homepage": false
         }
       },
-      "active": "20a422c78060a7bb",
-      "mtime": "2026-01-18T20:21:21+08:00"
+      "active": "b0f643148154128b",
+      "mtime": "2026-01-18T21:22:50+08:00"
     }
   },
   "active": "homepage"
