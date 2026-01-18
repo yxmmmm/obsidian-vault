@@ -14,5 +14,6 @@
   "obsidian-tasks-plugin",
   "components",
   "contribution-graph",
-  "obsidian-advanced-uri"
+  "obsidian-advanced-uri",
+  "obsidian-hover-editor"
 ]
