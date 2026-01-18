@@ -11,5 +11,7 @@
   "obsidian-excalidraw-plugin",
   "heatmap-calendar",
   "homepage",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "components",
+  "contribution-graph"
 ]

@@ -4,6 +4,26 @@ tags:
 mood:
 energy:
 ---
+```contributionGraph
+title: Contributions
+graphType: default
+dateRangeValue: 90
+dateRangeType: LATEST_DAYS
+startOfWeek: 1
+showCellRuleIndicators: true
+titleStyle:
+  textAlign: left
+  fontSize: 15px
+  fontWeight: normal
+dataSource:
+  type: PAGE
+  value: ""
+  dateField: {}
+fillTheScreen: false
+enableMainContainerShadow: false
+cellStyleRules: []
+
+```
 
 # 📅 {{date:YYYY年MM月DD日}}
 {{date:ddd}} | [昨日]([[{{yesterday}}]]) | [明日]([[{{tomorrow}}]])
