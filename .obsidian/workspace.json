@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-01-18.md",
+                "file": "blog/monthly report/2025-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-18"
+              "title": "2025-12"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "统计.md",
+                "file": "blog/monthly report/2025-12.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计 的大纲"
+              "title": "2025-12 的大纲"
             }
           },
           {
@@ -176,12 +176,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,8 +199,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "5977b19ed68cd4c6",
   "lastOpenFiles": [
+    "c语言/函数/递归调用.md",
+    "c语言/函数/存储类别.md",
     "daily/2026-01-18.md",
     "daily/2025-11-23.md",
     "统计.md",
