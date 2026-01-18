@@ -13,6 +13,14 @@ energy:
 ## 📥 任务清单 (Tasks)
 - [ ] 
 
+## 🥶未完成任务
+```dataview
+TASK
+FROM "daily"
+WHERE !completed 
+AND file.name != dateformat(date(today), "yyyy-MM-dd")
+GROUP BY file.link
+```
 ## 🕒 时间轴 / 随时记 (Log)
 
 - **08:00** | 
@@ -22,7 +30,6 @@ energy:
 
 ## 🍎 习惯打卡 (Habits)
 - [ ] 📖 阅读 20min
-- [ ] 💧 饮水 1L
 - [ ] 🔤 学英语
 
 ## 💡 灵感与思考

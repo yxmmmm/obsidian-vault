@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/monthly report/2025-12.md",
+                "file": "templates/Daily template1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12"
+              "title": "Daily template1"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/monthly report/2025-12.md",
+                "file": "templates/Daily template1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-12 的大纲"
+              "title": "Daily template1 的大纲"
             }
           },
           {
@@ -173,6 +173,16 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
+            }
+          },
+          {
+            "id": "679a6d2d377067e6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -199,19 +209,24 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "40e808d489aec0ca",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "daily/2026-01-18.md",
+    "templates/Daily template1.md",
+    "daily/2025-11-22.md",
+    "daily/2025-11-21.md",
+    "daily/2026-01-10.md",
+    "Gemini给的algorithm建议.md",
+    "统计.md",
+    "期末  from Gemini.md",
+    "未命名.md",
+    "blog/monthly report/2025-12.md",
     "c语言/函数/递归调用.md",
     "c语言/函数/存储类别.md",
-    "daily/2026-01-18.md",
     "daily/2025-11-23.md",
-    "统计.md",
     "DS_Store",
     "未命名 1.base",
     "未命名.base",
-    "daily/2026-01-15.md",
-    "templates/Daily template1.md",
-    "daily/2025-11-21.md",
-    "Gemini给的algorithm建议.md"
+    "daily/2026-01-15.md"
   ]
 }
