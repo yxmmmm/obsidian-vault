@@ -2,7 +2,14 @@
   "confirmDeletion": true,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [],
+  "editorMenu": [
+    {
+      "id": "multi-column-markdown:insert-multi-column-region",
+      "icon": "lucide-activity",
+      "name": "Multi-Column Markdown: Insert Multi-Column Region",
+      "mode": "any"
+    }
+  ],
   "fileMenu": [],
   "leftRibbon": [],
   "rightRibbon": [],

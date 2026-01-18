@@ -15,5 +15,6 @@
   "components",
   "contribution-graph",
   "obsidian-advanced-uri",
-  "obsidian-hover-editor"
+  "obsidian-hover-editor",
+  "multi-column-markdown"
 ]
