@@ -1,8 +1,13 @@
 [
+  "cmdr",
+  "obsidian-latex-suite",
+  "better-export-pdf",
+  "remotely-save",
+  "templater-obsidian",
   "calendar",
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-git",
   "dataview",
   "obsidian-excalidraw-plugin",
-  "obsidian-git",
-  "templater-obsidian",
   "heatmap-calendar"
 ]
