@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "id": "259bda09-6c9e-407f-b5c8-d9d9b273b62e",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T11:14:06.106Z",
+      "updateAt": "2026-01-18T11:19:55.595Z",
+      "components": [
+        {
+          "componentId": "c84ce8d2-3974-4c66-9944-515c3c671aa3"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "c84ce8d2-3974-4c66-9944-515c3c671aa3",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "组合",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T11:14:10.437Z",
+      "updateAt": "2026-01-18T11:19:56.133Z",
+      "components": [
+        {
+          "componentId": "777cf915-6105-46ca-bc1e-3415edd75aa5",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "3a097b3f-044c-4190-8d22-0ee1b97a9022",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "c4d968dd-84f3-4b26-b0a7-e0440184074d"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "777cf915-6105-46ca-bc1e-3415edd75aa5",
+      "type": "timing",
+      "titleAlign": "center",
+      "tabTitle": "寒假开始",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2026-01-18T11:15:29.116Z",
+      "updateAt": "2026-01-18T11:26:37.770Z",
+      "showStartDateTime": false,
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "timeTextPattern": "d",
+      "title": "寒假开始",
+      "startDateTime": "2026-01-15 00:00:00"
+    },
+    {
+      "id": "3a097b3f-044c-4190-8d22-0ee1b97a9022",
+      "type": "countdown",
+      "titleAlign": "center",
+      "tabTitle": "距离寒假结束",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2026-01-18T11:17:13.882Z",
+      "updateAt": "2026-01-18T11:26:37.770Z",
+      "repeatType": "none",
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "showEndDateTime": false,
+      "endDayOfWeek": 0,
+      "endHour": 0,
+      "endMinute": 0,
+      "endSecond": 0,
+      "timeTextPattern": "dH",
+      "title": "距离寒假结束",
+      "endYear": 2026,
+      "endMonth": 2,
+      "endDayOfMonth": 1
+    },
+    {
+      "id": "c4d968dd-84f3-4b26-b0a7-e0440184074d",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "日期进度",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2026-01-18T11:26:45.556Z",
+      "updateAt": "2026-01-18T11:28:24.903Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$specifiedDateTime",
+      "endDateTimeType": "$specifiedDateTime",
+      "uiType": "bar",
+      "title": "2026进度条",
+      "startDateTime": "2026-01-01 00:00:00",
+      "endDateTime": "2026-12-31 23:59:59"
+    }
+  ],
+  "rootComponentId": "259bda09-6c9e-407f-b5c8-d9d9b273b62e",
+  "version": 3
+}
