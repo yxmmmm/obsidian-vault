@@ -1,0 +1,22 @@
+{
+  "components": [
+    {
+      "id": "68f24f45-2e85-4c1c-b12a-c0f6eee5d255",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T12:10:38.313Z",
+      "updateAt": "2026-01-18T12:10:38.313Z",
+      "components": [],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    }
+  ],
+  "rootComponentId": "68f24f45-2e85-4c1c-b12a-c0f6eee5d255",
+  "version": 3
+}

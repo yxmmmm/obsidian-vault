@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "id": "c26a0dcc-84ce-4a5c-9384-72b003e0ac49",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T12:04:47.346Z",
+      "updateAt": "2026-01-18T12:10:00.504Z",
+      "components": [
+        {
+          "componentId": "90cc1818-3ac0-40b6-b584-fd2e0602c6c9"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "90cc1818-3ac0-40b6-b584-fd2e0602c6c9",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "一天不打，上房揭瓦",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2026-01-18T12:04:54.093Z",
+      "updateAt": "2026-01-18T12:09:49.049Z",
+      "tasks": [
+        {
+          "id": "e279b5fc-4bc9-496b-97e7-e478172491bc",
+          "name": "🔤英语精读",
+          "options": {}
+        },
+        {
+          "id": "b032fcd4-084b-4a4d-b951-9b4b594927df",
+          "name": "📖阅读",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "multiPage",
+      "folder": "components/daily-check",
+      "title": "一天不打，上房揭瓦"
+    }
+  ],
+  "rootComponentId": "c26a0dcc-84ce-4a5c-9384-72b003e0ac49",
+  "version": 3
+}
