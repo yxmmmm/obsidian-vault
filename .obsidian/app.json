@@ -2,5 +2,6 @@
   "promptDelete": true,
   "trashOption": "system",
   "attachmentFolderPath": "attachment",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false
 }

@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "id": "ffc1f06f-9513-4cda-b876-c6b946e82cb4",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-19T01:33:14.900Z",
+      "updateAt": "2026-01-19T01:41:38.414Z",
+      "components": [
+        {
+          "componentId": "e9915399-0425-45f6-b89b-29028c5f22b8"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "e9915399-0425-45f6-b89b-29028c5f22b8",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "组合",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-19T01:33:25.796Z",
+      "updateAt": "2026-01-19T01:43:02.535Z",
+      "components": [
+        {
+          "componentId": "917eadaa-9634-40f8-bce0-84cf5a3f2e06"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "917eadaa-9634-40f8-bce0-84cf5a3f2e06",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "组合",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T11:14:06.106Z",
+      "updateAt": "2026-01-19T01:36:23.688Z",
+      "components": [
+        {
+          "componentId": "3bdbaaeb-1fdc-4d99-b9b7-1f992e0ee9a0"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "3bdbaaeb-1fdc-4d99-b9b7-1f992e0ee9a0",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "组合",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T11:14:10.437Z",
+      "updateAt": "2026-01-19T00:49:20.425Z",
+      "components": [
+        {
+          "componentId": "2af15685-1902-49ef-8762-f58dded13360",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "5944fc5e-494e-44d5-b817-18103109a622",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "f75e12af-ce06-494c-805f-563001a8bc8f"
+        },
+        {
+          "componentId": "ac1d4f7a-d6a4-463b-8c71-5c4b54757d3a"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "2af15685-1902-49ef-8762-f58dded13360",
+      "type": "timing",
+      "titleAlign": "center",
+      "tabTitle": "寒假开始",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2026-01-18T11:15:29.116Z",
+      "updateAt": "2026-01-18T11:26:37.770Z",
+      "showStartDateTime": false,
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "timeTextPattern": "d",
+      "title": "寒假开始",
+      "startDateTime": "2026-01-15 00:00:00"
+    },
+    {
+      "id": "5944fc5e-494e-44d5-b817-18103109a622",
+      "type": "countdown",
+      "titleAlign": "center",
+      "tabTitle": "距离寒假结束",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2026-01-18T11:17:13.882Z",
+      "updateAt": "2026-01-18T11:26:37.770Z",
+      "repeatType": "none",
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "showEndDateTime": false,
+      "endDayOfWeek": 0,
+      "endHour": 0,
+      "endMinute": 0,
+      "endSecond": 0,
+      "timeTextPattern": "dH",
+      "title": "距离寒假结束",
+      "endYear": 2026,
+      "endMonth": 2,
+      "endDayOfMonth": 1
+    },
+    {
+      "id": "f75e12af-ce06-494c-805f-563001a8bc8f",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "日期进度",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2026-01-18T11:26:45.556Z",
+      "updateAt": "2026-01-18T11:28:24.903Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$specifiedDateTime",
+      "endDateTimeType": "$specifiedDateTime",
+      "uiType": "bar",
+      "title": "2026进度条",
+      "startDateTime": "2026-01-01 00:00:00",
+      "endDateTime": "2026-12-31 23:59:59"
+    },
+    {
+      "id": "ac1d4f7a-d6a4-463b-8c71-5c4b54757d3a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T13:59:07.433Z",
+      "updateAt": "2026-01-18T13:59:07.433Z",
+      "components": [
+        {
+          "componentId": "5e9c069f-02f5-42de-91b9-8526beaac688"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "5e9c069f-02f5-42de-91b9-8526beaac688",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-18T13:59:11.188Z",
+      "updateAt": "2026-01-18T13:59:11.188Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "850ea505-6660-4c9a-bb88-17e6b44ac8fb",
+        "options": {}
+      },
+      "coverCoordinate": {
+        "x": "50%",
+        "y": "50%"
+      }
+    }
+  ],
+  "rootComponentId": "ffc1f06f-9513-4cda-b876-c6b946e82cb4",
+  "version": 3
+}

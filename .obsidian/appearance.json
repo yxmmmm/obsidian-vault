@@ -3,5 +3,9 @@
   "cssTheme": "Composer",
   "theme": "moonstone",
   "enabledCssSnippets": [
-  ]
+    "dashboard",
+    "editor-full"
+  ],
+  "showViewHeader": true,
+  "showRibbon": true
 }
