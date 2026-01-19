@@ -30,7 +30,7 @@
       "showTitle": true,
       "showShadow": false,
       "createAt": "2026-01-18T11:14:10.437Z",
-      "updateAt": "2026-01-18T11:19:56.133Z",
+      "updateAt": "2026-01-19T00:49:20.425Z",
       "components": [
         {
           "componentId": "777cf915-6105-46ca-bc1e-3415edd75aa5",
@@ -47,7 +47,8 @@
               "w": 4,
               "h": 4
             }
-          }
+          },
+          "widthRatio": 33.333333333333336
         },
         {
           "componentId": "3a097b3f-044c-4190-8d22-0ee1b97a9022",
@@ -64,10 +65,12 @@
               "w": 4,
               "h": 4
             }
-          }
+          },
+          "widthRatio": 33.90476190476185
         },
         {
-          "componentId": "c4d968dd-84f3-4b26-b0a7-e0440184074d"
+          "componentId": "c4d968dd-84f3-4b26-b0a7-e0440184074d",
+          "widthRatio": 32.76190476190482
         }
       ],
       "layoutType": "column",
