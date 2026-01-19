@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "统计.md",
+                "file": "c语言/函数/存储类别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "存储类别"
             }
           }
         ]
@@ -39,7 +39,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "打卡.md",
+                    "file": "tool/打卡.md",
                     "mode": "source",
                     "source": false
                   },
@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8df733147fa6d689",
@@ -256,9 +255,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b0f643148154128b",
+  "active": "f02ed9f42b04a85c",
   "lastOpenFiles": [
-    "统计.md",
+    "tool/统计.md",
     "Excalidraw/Drawing 2026-01-19 10.15.19.excalidraw.md",
     "Excalidraw",
     "未命名.md",
@@ -269,7 +268,7 @@
     "未命名 1.md",
     "c语言/指针/野指针.md",
     "c语言/指针/二级指针.md",
-    "打卡.md",
+    "tool/打卡.md",
     "c语言/函数/函数易错.md",
     "daily/2026-01-18.md",
     "未命名.canvas",
