@@ -1,0 +1,9 @@
+.dashboard-grid {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+.dashboard-grid > * {
+    flex: 1;
+    margin-top: 0 !important;
+}

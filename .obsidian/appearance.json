@@ -1,5 +1,7 @@
 {
   "accentColor": "#57eae0",
   "cssTheme": "Composer",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+  ]
 }
