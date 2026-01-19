@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-01-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-01-19"
             }
           }
         ]
@@ -256,15 +256,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20a422c78060a7bb",
+  "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
+    "tool/打卡.md",
+    "templates/Daily template1.md",
+    "daily/2026-01-18.md",
+    "daily/2026-01-19.md",
     "components/daily-check/2026-01-19_23-20-31_811.md",
     "components/daily-check",
     "未命名.base",
     "未命名 1.base",
-    "daily/2026-01-19.md",
-    "tool/统计.md",
-    "tool/打卡.md",
     "c语言/函数/存储类别.md",
     "Excalidraw/Drawing 2026-01-19 10.15.19.excalidraw.md",
     "Excalidraw",
@@ -277,7 +279,6 @@
     "c语言/指针/野指针.md",
     "c语言/指针/二级指针.md",
     "c语言/函数/函数易错.md",
-    "daily/2026-01-18.md",
     "未命名.canvas",
     "c语言/函数/函数调用.md",
     "c语言/函数/递归调用.md",
@@ -289,7 +290,6 @@
     "c语言/函数/结构体.md",
     "tool/LaTeX.md",
     "components/view/组件4.components",
-    "templates/Daily template1.md",
     "daily/2026-01-06.md",
     "daily/2026-01-05.md",
     "components/view/组件3.components",
