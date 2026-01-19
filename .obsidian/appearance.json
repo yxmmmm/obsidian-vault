@@ -7,5 +7,6 @@
     "editor-full"
   ],
   "showViewHeader": true,
-  "showRibbon": true
+  "showRibbon": true,
+  "translucency": false
 }
