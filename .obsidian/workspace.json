@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-01-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-01-20"
             }
           }
         ]
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8df733147fa6d689",
@@ -255,8 +256,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20a422c78060a7bb",
+  "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
+    "tool/打卡.md",
+    "tool/LaTeX.md",
     "daily/2026-01-19.md",
     "daily/2026-01-18.md",
     "daily/2026-01-15.md",
@@ -264,8 +268,6 @@
     "数模数据分析.md",
     "templates/Daily template1.md",
     "[[2026-01-19]].md",
-    "tool/统计.md",
-    "tool/打卡.md",
     "components/daily-check/2026-01-19_23-20-31_811.md",
     "components/daily-check",
     "未命名.base",
@@ -290,7 +292,6 @@
     "components/view/组件5.components",
     "c语言/函数/预处理命令.md",
     "c语言/函数/结构体.md",
-    "tool/LaTeX.md",
     "components/view/组件4.components",
     "daily/2026-01-06.md",
     "components/view/组件3.components"
