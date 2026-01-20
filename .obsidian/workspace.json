@@ -258,13 +258,16 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
-    "tool/统计.md",
     "tool/打卡.md",
+    "components/daily-check/2026-01-20_23-09-32_176.md",
+    "components/daily-check/2026-01-20_23-09-31_142.md",
+    "components/daily-check/2026-01-20_23-09-28_376.md",
+    "daily/2026-01-20.md",
+    "tool/统计.md",
     "tool/LaTeX.md",
     "daily/2026-01-19.md",
     "daily/2026-01-18.md",
     "daily/2026-01-15.md",
-    "daily/2026-01-20.md",
     "数模数据分析.md",
     "templates/Daily template1.md",
     "[[2026-01-19]].md",
@@ -290,10 +293,7 @@
     "c语言/函数/声明.md",
     "c语言/函数/结构体易错.md",
     "components/view/组件5.components",
-    "c语言/函数/预处理命令.md",
-    "c语言/函数/结构体.md",
     "components/view/组件4.components",
-    "daily/2026-01-06.md",
     "components/view/组件3.components"
   ]
 }
