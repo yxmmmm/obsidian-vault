@@ -63,3 +63,239 @@
 |$\hat{a}$|`\hat{a}`|$\bar{a}$|`\bar{a}`|
 |$\tilde{a}$|`\tilde{a}`|$\vec{a}$|`\vec{a}`|
 |$\dots$|`\dots`|$\vdots$|`\vdots`|
+
+# 语法
+
+
+
+## include
+
+
+
+```latex
+\documentclass{article}
+\usepakage{}
+\begin{document}
+
+i love singing
+\include{chapter1}
+\include{chapter2}
+
+\end{document}
+```
+
+​													main.tex
+
+```latex
+\section{cha1}
+i love dancing
+```
+
+​													chapter1.tex
+
+```latex
+\section{cha2}
+i love rapping
+```
+
+
+
+但是include命令会把内容另起一页，因此使用范围不够广
+
+
+
+## input
+
+纯粹的文章内容插入
+
+```
+\input{filename}
+```
+
+
+
+## includeonly
+
+用于导言区域，正文不在列表范围的include不会生效
+
+```
+\includeonly{<filename1>,<filename2>}
+```
+
+
+
+## 换行
+
+```
+\par
+```
+
+或直接换行，但是换多行只会渲染出换一行
+
+## 原格式打印
+
+```
+\verb|"taget"|
+```
+
+## 注释
+
+```
+%这是一段注释
+```
+
+## 转义字符
+
+反斜杠转译
+
+```
+\textbackslash
+```
+
+## 断行
+
+段中断行，并非新段
+
+```
+\newline
+or 
+\\
+```
+
+## 断页
+
+```
+\newpage %双栏排版时跳到第二栏上
+\clearpage %跳到新页
+```
+
+
+
+# 文章元素
+
+## 标题
+
+### 一级标题
+
+带编号
+
+```
+\section{}
+```
+
+不带编号
+
+```
+\section*{}
+```
+
+
+
+### 二级标题
+
+```
+\subsection{}
+```
+
+不带编号
+
+```
+\subsection*{}
+```
+
+### 三级标题
+
+```
+\subsubsection{}
+```
+
+
+
+## 部分
+
+```
+\part
+```
+
+首字母自动大写
+
+
+
+## 目录
+
+```
+\tableofcontents
+```
+
+
+
+## 附录
+
+```
+\appedix
+```
+
+
+
+## 标题页
+
+```
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\end{document}
+```
+
+
+
+## 引用
+
+```
+\label{be_labeled}
+
+\ref{be_labeled}%引用章节号
+\pageref{be_labeled}%页号
+```
+
+## 脚注
+
+```
+\footnote{}
+```
+
+## 分层
+
+123顺序编号，enumerate
+
+```
+\begin{enumerate}
+ \item  
+  \begin{enumerate}
+    \item[*]
+  \end{enumerate}
+  
+ \item
+\end{enumerate}
+```
+
+。编号，itemize
+
+```
+\begin{itemize}
+	\item  
+\end{itemize}
+```
+
+Description,加粗目标
+
+```
+\begin{Description}
+	\item[加粗部分]。。。
+\end{Description}
+```
+
