@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-01-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-01-21"
             }
           }
         ]
@@ -46,21 +46,8 @@
                   "icon": "lucide-file",
                   "title": "打卡"
                 }
-              },
-              {
-                "id": "796b7ec34ca98a96",
-                "type": "leaf",
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.11.5"
-                  },
-                  "icon": "lucide-book-up",
-                  "title": "版本说明 1.11.5"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "33b006507035c329",
@@ -269,16 +256,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "796b7ec34ca98a96",
+  "active": "220af336afe2999c",
   "lastOpenFiles": [
     "tool/统计.md",
-    "daily/2026-01-21.md",
     "tool/打卡.md",
+    "tool/LaTeX.md",
+    "daily/2026-01-21.md",
     "daily/2026-01-20.md",
     "components/daily-check/2026-01-20_23-09-32_176.md",
     "components/daily-check/2026-01-20_23-09-31_142.md",
     "components/daily-check/2026-01-20_23-09-28_376.md",
-    "tool/LaTeX.md",
     "daily/2026-01-19.md",
     "daily/2026-01-18.md",
     "daily/2026-01-15.md",
