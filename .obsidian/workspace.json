@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-01-20.md",
+                "file": "daily/2026-01-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-20"
+              "title": "2026-01-21"
             }
           }
         ]
@@ -258,12 +258,13 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
+    "daily/2026-01-21.md",
     "tool/打卡.md",
+    "daily/2026-01-20.md",
     "components/daily-check/2026-01-20_23-09-32_176.md",
     "components/daily-check/2026-01-20_23-09-31_142.md",
     "components/daily-check/2026-01-20_23-09-28_376.md",
-    "daily/2026-01-20.md",
-    "tool/统计.md",
     "tool/LaTeX.md",
     "daily/2026-01-19.md",
     "daily/2026-01-18.md",
@@ -291,7 +292,6 @@
     "c语言/函数/递归调用.md",
     "c语言/函数/函数概念.md",
     "c语言/函数/声明.md",
-    "c语言/函数/结构体易错.md",
     "components/view/组件5.components",
     "components/view/组件4.components",
     "components/view/组件3.components"
