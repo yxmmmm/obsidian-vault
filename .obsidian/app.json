@@ -3,5 +3,6 @@
   "trashOption": "system",
   "attachmentFolderPath": "attachment",
   "alwaysUpdateLinks": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "openBehavior": "daily"
 }
