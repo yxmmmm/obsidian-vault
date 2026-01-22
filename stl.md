@@ -11,7 +11,7 @@ vector<int>arr(100)//初始长100int数组
 vector<int>arr(100,1)//初始长100int数组初值1
 
 vector<vector<int>> dp(5,vector<int>(6,10))
-//5行6列且每行初值10，二维数组
+//5行6列初值10，二维数组
 vector<vecter<vecter<int>>> dp2(5,vecter<vecter<int>>(6,vecter<int>(4)))
 //6行4列5高，三维数组
 ```
