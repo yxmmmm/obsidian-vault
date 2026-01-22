@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-01-21.md",
+                "file": "tool/统计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-21"
+              "title": "统计"
             }
           }
         ]
@@ -256,7 +256,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "220af336afe2999c",
+  "active": "20a422c78060a7bb",
   "lastOpenFiles": [
     "tool/统计.md",
     "tool/打卡.md",

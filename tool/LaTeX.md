@@ -299,3 +299,83 @@ Description,加粗目标
 \end{Description}
 ```
 
+
+
+# 对齐环境
+
+## 居中
+
+```
+\begin{center}
+
+\end{center} %块级
+
+\centering%后续
+```
+
+## 左右对齐
+
+```
+\raggedright
+\raggedleft
+```
+
+
+
+# 引用环境
+
+```
+\begin{quote}
+
+\end{quote}%较短
+
+
+\begin{quotation}
+
+\end{quotation}%段落
+```
+
+
+
+# 摘要环境
+
+```
+\begin{abstract}
+
+\end{abstract}
+```
+
+
+
+# 代码环境
+
+```
+\begin{verbatim}
+
+\end{verbatim}
+```
+
+
+
+# 表格环境
+
+上模版
+
+# 插图
+
+放入同一个目录下可直接用图片名字
+
+```
+\usepackage{graphicx}
+
+%假设主图在figure文件夹，标志在logo文件夹，但是会先在根目录中寻找，所以要注意同名问题
+graphicspath{{figures/}{logos/}}
+%想居中可加begin{center}
+\includegraphics[scale/height/width/angle=< >]{}
+
+```
+
+
+
+# 浮动体
+
