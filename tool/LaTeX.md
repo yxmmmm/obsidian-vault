@@ -379,3 +379,148 @@ graphicspath{{figures/}{logos/}}
 
 # 浮动体
 
+```latex
+\listoffigures%图片目录
+\listoftables%表格目录
+
+\caption%带编号
+\caption*%不带编号
+
+\begin{table/figure}
+
+\end{table/figure}
+```
+
+
+
+# 盒子
+
+```
+\parbox[<align>][<height>][<inner-align>]{<width>}{...}%段级
+
+
+\begin{minipage}[<align>][<height>][<inner-align>]{<width>}
+...
+
+\end{minipage}
+```
+
+![image-20260123105856659](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260123105856659.png)
+
+### 并排（共用标题）
+
+```
+\begin{figure}[htbp]%全打开
+
+\centering
+\includegraphics[width=...]{}
+\qquad%并排图片间空格
+\includegraphics[width=...]{}\\[...pt]
+\includegraphics[width=...]{}
+\caption{}
+
+\end{figure}
+```
+
+### 子图（各有标题）
+
+```
+\begin{figure}[htbp]%全打开
+
+	\centering
+	\begin{subfigure}{<width>}%使用subcaption宏包的subfigure环境排版子图.width必填例如5cm / 0.45\textwidth
+		\centering
+		\icludegraphics[width=...]{...}
+		\caption{...}
+	\end{subfigure}
+	
+	\qquad
+	
+	begin{subfigure}{...}
+		\centering
+		\icludegraphics[width=...]{...}
+		\caption{...}
+	\end{subfigure}
+
+\end{figure}
+```
+
+
+
+# 数学公式排版
+
+### 行内公式
+
+一对$
+
+```
+The Pythagorean theorem is
+$a^2+b^2=c^2$
+```
+
+渲染结果
+
+The Pythagorean theorem is $a^2+b^2=c^2$
+
+### 行间公式
+
+```
+The Pythagorean theorem is:
+\begin{equation}
+a^2 + b^2=c^2 \label{pythagorean}
+\end{equation}
+Equation \eqref{pythagorean} iscalled`Gougu theorem' in Chinese
+```
+
+![image-20260123142418442](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260123142418442.png)
+
+可用\tag修改公式编号
+
+\notag/ \nonumber/ \begin{equaton*}取消公式编号
+
+# 字体&字号
+
+![image-20260124195554779](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260124195554779.png)
+
+
+
+# 段落格式&间距
+
+## 行距
+
+```
+\linespread{<factor>}
+```
+
+
+
+## 段落格式
+
+```
+\setlength{\leftskip}{(length)}
+\setlengthf\rightskip}{(length)}
+\setlength{\parindent}{(length)}
+```
+
+
+
+## 水平间距
+
+![image-20260124200608938](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260124200608938.png)
+
+## 垂直间距
+
+![image-20260124200718144](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260124200718144.png)
+
+
+
+# 参考文献
+
+1. 复制bibtex信息到--.bib文件
+2. 导言区\bibliographystyle{plain}
+3. 正文引用处\cite{key}
+4. 结尾/bibliography{bib文件名}
+5. xetex运行一次，bibtex运行一次，xetex运行两次
+
+
+

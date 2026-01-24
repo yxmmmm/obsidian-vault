@@ -15,3 +15,62 @@ vector<vector<int>> dp(5,vector<int>(6,10))
 vector<vecter<vecter<int>>> dp2(5,vecter<vecter<int>>(6,vecter<int>(4)))
 //6行4列5高，三维数组
 ```
+
+## 尾接&尾删
+```cpp
+int main()
+{
+	vecter<int> arr;
+	// init: arr = []
+	arr.push_back(1);
+	// after: arr = [1]
+	arr.push_back(2);
+	// after: arr = [1, 2]
+	arr.pop_back();
+	// after: arr = [1]
+	arr.pop_back();
+	// after: arr = []
+
+	
+	cout<<arr.size()<<endl;//打印长度
+	
+	arr.clear()//清空
+	
+	cout<<arr.empty()<<endl;//判空，返回bool
+	
+	arr.resize(5,3)//修改arr长度为5，初值均为3。改短直接删，改长赋初值
+}
+```
+
+## 应用场景
+有些情况普通数组没法解决： $n*m$的矩阵， 且 $1\leq n，m\leq 10^6且n*m\leq 10^6$
+
+- 如果用普通数组 `int mat[1000010][1000010]`，浪费内存，会导致 MLE。
+- 如果使用 `vector<vector<int>> mat(n + 10, vector<int> (m + 10))`，完美解决该问题。
+
+另外，`vector` 的数据储存在堆空间中，不会爆栈。
+
+## 注意事项
+#### 提前指定长度
+
+如果长度已经确定，那么应当直接在构造函数指定长度，而不是一个一个 `.push_back()`. 因为 `vector` 额外内存耗尽后的重分配是有时间开销的，直接指定长度就不会出现重分配了。
+
+```cpp
+// 优化前: 522ms
+vector<int> a;
+for (int i = 0; i < 1e8; i++)
+    a.push_back(i);
+// 优化后: 259ms
+vector<int> a(1e8);
+for (int i = 0; i < a.size(); i++)
+    a[i] = i;
+```
+
+#### 当心 size_t 溢出
+
+vector 获取长度的方法 `.size()` 返回值类型为 `size_t`，通常 OJ 平台使用的是 32 位编译器（有些平台例如 cf 可选 64 位），那么该类型范围为$[0,2^{32} )$ .
+
+```cpp
+vector<int> a(65536);
+long long a = a.size() * a.size(); // 直接溢出变成0了
+```

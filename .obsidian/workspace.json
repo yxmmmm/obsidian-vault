@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4e0b8a717df4f0d1",
+        "id": "5ddfe23f6c9c06c3",
         "type": "tabs",
         "children": [
           {
-            "id": "a2d5df263abceecf",
+            "id": "780b26a35c8688b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8df733147fa6d689",
@@ -196,8 +195,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "audio-recorder:开始/结束录音": false,
-      "workspaces:管理工作区布局": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -211,16 +208,20 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "a2d5df263abceecf",
+  "active": "780b26a35c8688b5",
   "lastOpenFiles": [
+    "Users/yangxiaomao/Library/Application.md",
+    "tool/LaTeX.md",
+    "Users/yangxiaomao/Library",
+    "Users/yangxiaomao",
+    "Users",
+    "daily/2026-01-22.md",
+    "stl.md",
     "tool/统计.md",
     "tool/打卡.md",
-    "stl.md",
     "components/daily-check/2026-01-22_22-25-31_953.md",
     "components/daily-check/2026-01-22_22-25-29_521.md",
     "components/daily-check/2026-01-22_22-25-20_339.md",
-    "daily/2026-01-22.md",
-    "tool/LaTeX.md",
     "daily/2026-01-21.md",
     "daily/2026-01-20.md",
     "components/daily-check/2026-01-20_23-09-32_176.md",
@@ -245,10 +246,6 @@
     "components/view/组合2.components",
     "未命名 1.md",
     "c语言/指针/野指针.md",
-    "c语言/指针/二级指针.md",
-    "未命名.canvas",
-    "components/view/组件5.components",
-    "components/view/组件4.components",
-    "components/view/组件3.components"
+    "未命名.canvas"
   ]
 }
