@@ -74,3 +74,50 @@ vector 获取长度的方法 `.size()` 返回值类型为 `size_t`，通常 O
 vector<int> a(65536);
 long long a = a.size() * a.size(); // 直接溢出变成0了
 ```
+
+# stack
+先进后出
+
+```cpp
+stack<double>stk;
+stk.push_back(1.0);
+stk.pop_back();
+```
+## 常用方法
+  
+
+| 作用             | 用法              | 示例                   |
+| -------------- | --------------- | -------------------- |
+| 构造             | `stack<类型> stk` | `stack<int> stk;`    |
+| 进栈             | `.push(元素)`     | `stk.push(1);`       |
+| 出栈             | `.pop()`        | `stk.pop();`         |
+| 取栈顶            | `.top()`        | `int a = stk.top();` |
+
+## 适用情形
+可用vector当栈用.back()取尾部元素相当于对栈顶操作
+push_back()=.push()进栈
+pop_back=.pop()出栈
+.back()=.top()取栈顶
+ 
+## 注意
+**stack不可访问内部元素**
+
+# 队列
+先进先出
+
+```cpp
+queue<int>que;
+que.push(1);
+que.pop();
+
+cout<<que.back()<<
+```
+
+## 常用方法
+|   |   |   |
+|---|---|---|
+|构造|`queue<类型> que`|`queue<int> que;`|
+|进队|`.push(元素)`|`que.push(1);`|
+|出队|`.pop()`|`que.pop();`|
+|取队首|`.front()`|`int a = que.front();`|
+|取队尾|`.back()`|`int a = que.back();`|
