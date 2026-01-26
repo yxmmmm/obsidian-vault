@@ -102,7 +102,7 @@ pop_back=.pop()出栈
 ## 注意
 **stack不可访问内部元素**
 
-# 队列
+# queue
 先进先出
 
 ```cpp
@@ -110,14 +110,52 @@ queue<int>que;
 que.push(1);
 que.pop();
 
-cout<<que.back()<<
+cout<<que.back()<<endl
+cout<<que.front()<<endl
+cout<<que.size()<<endl
+cout<<que.empty()<<endl
 ```
 
 ## 常用方法
-|   |   |   |
-|---|---|---|
-|构造|`queue<类型> que`|`queue<int> que;`|
-|进队|`.push(元素)`|`que.push(1);`|
-|出队|`.pop()`|`que.pop();`|
-|取队首|`.front()`|`int a = que.front();`|
-|取队尾|`.back()`|`int a = que.back();`|
+| 作用   | 用法              | 示例                     |
+| ---- | --------------- | ---------------------- |
+| 构造   | `queue<类型> que` | `queue<int> que;`      |
+| 进队   | `.push(元素)`     | `que.push(1);`         |
+| 出队   | `.pop()`        | `que.pop();`           |
+| 取队首  | `.front()`      | `int a = que.front();` |
+| 取队尾  | `.back()`       | `int a = que.back();`  |
+| 查看大小 | `.size()`       | `int a = que.size();`  |
+| 判空   | `.empty()`      | `int a = que.empty();` |
+## 注意⚠️
+**不可访问内部元素**
+
+# priority_queue
+提供常数时间的**最大元素查找**，对数时间的插入与提取，底层原理是二叉堆。
+
+## 构造
+**`priority_queue<类型, 容器, 比较器> pque`**
+```cpp
+priority_queue<int>pque//大顶堆
+priority_queue<int, vector<int>, greater<int>> pque2; // 储存int的小顶堆
+```
+
+
+## 常用方法
+| 作用   | 用法                       | 示例                         |
+| ---- | ------------------------ | -------------------------- |
+| 构造   | `priority_queue<类型> que` | `priority_queue<int> que;` |
+| 进堆   | `.push(元素)`              | `pque.push(1);`            |
+| 出堆   | `.pop()`                 | `pque.pop();`              |
+| 取堆顶  | `.top()`                 | `int a = pque.top();`      |
+| 查看大小 | `.size()`                | `int a = pque.size();`     |
+| 判空   | `.empty()`               | `int a = pque.empty();`    |
+## 注意⚠️
+- 仅堆顶可读
+- 所有元素不可写
+	若刚好更改堆顶元素可曲线救国
+	```cpp
+	int tp = pque.top();
+	pque.pop();
+	qpue.push(new);
+	```
+**实质是弹出堆顶并涌入一个新的元素**
