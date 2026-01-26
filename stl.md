@@ -134,6 +134,7 @@ cout<<que.empty()<<endl
 
 ## 构造
 **`priority_queue<类型, 容器, 比较器> pque`**
+**比较器默认为less<类型>**
 ```cpp
 priority_queue<int>pque//大顶堆
 priority_queue<int, vector<int>, greater<int>> pque2; // 储存int的小顶堆
@@ -159,3 +160,17 @@ priority_queue<int, vector<int>, greater<int>> pque2; // 储存int的小顶堆
 	qpue.push(new);
 	```
 **实质是弹出堆顶并涌入一个新的元素**
+
+# set
+提供对数时间的插入、删除、查找的集合数据结构。底层原理是红黑树。
+
+|集合三要素|解释|set|multiset|unordered_set|
+|---|---|---|---|---|
+|确定性|一个元素要么在集合中，要么不在|✔|✔|✔|
+|互异性|一个元素仅可以在集合中出现一次|✔|❌（任意次）|✔|
+|无序性|集合中的元素是没有顺序的|❌（从小到大）|❌（从小到大）|✔|
+## 构造
+```cpp
+set<int> st1; // 储存int的集合（从小到大） 
+set<int, greater<int>> st2; // 储存int的集合（从大到小）
+```
