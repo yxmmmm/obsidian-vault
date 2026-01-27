@@ -573,3 +573,103 @@ iota(arr.begin(), arr.end(), 1);
 reverse(arr.begin(), arr.end());
 // 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
 ```
+**注意：reverse（）的范围是左闭右开格式，因此取不到右边界的值**
+
+## `max()/min()`
+
+在 C++11 之后，可以使用列表构造语法传入一个列表，这样就能一次性给多个元素找最大值而不用套娃了：
+
+```cpp
+// Before C++11
+int mx = max(max(1, 2), max(3, 4)); // 4
+int mn = min(min(1, 2), min(3, 4)); // 1
+
+// After C++11
+int mx = max({1, 2, 3, 4}); // 4
+int mn = min({1, 2, 3, 4}); // 1
+```
+
+## `unique()`
+
+消除数组的重复**相邻**元素，数组长度不变，但是有效数据缩短，返回的是有效数据位置的结尾迭代器。
+
+例如：$[1,1,4,5,1,4]\to[1,4,5,1,4,?]$，下划线位置为返回的迭代器指向。
+
+```cpp
+template< class ForwardIt >
+ForwardIt unique( ForwardIt first, ForwardIt last );
+```
+
+**用法示例**
+
+单独使用 unique 并不能达成去重效果，因为它只消除**相邻**的重复元素。但是如果序列有序，那么它就能去重了。
+
+但是它去重后，序列尾部会产生一些无效数据：$[1,1,2,4,4,4,5]\to[1,2,4,5,?,?,?]$，为了删掉这些无效数据，我们需要结合 erase.
+
+最终，给 vector 去重的写法便是：
+
+```cpp
+vector<int> arr{1, 2, 1, 4, 5, 4, 4};
+sort(arr.begin(), arr.end());
+//1 1 2 4 4 4 5
+//1 2 4 5 * * * 
+arr.erase(unique(arr.begin(), arr.end()), arr.end());
+//         unique()返回有效数字后一位的位置
+```
+
+## 数学函数
+
+所有函数参数均支持 `int` / `long long` / `float` / `double` / `long double`
+
+| 公式                                          | 示例           |
+| ------------------------------------------- | ------------ |
+| $f(x)=\left \| x \right \|$                 | `abs(-1.0)`  |
+| $f(x)=e^x$                                  | `exp(2)`     |
+| $f(x)=\ln x$                                | `log(3)`     |
+| $f(x)=x^y$                                  | `pow(2, 3)`  |
+| $f(x)=\sqrt{ x }$                           | `sqrt(2)`    |
+| $f(x)=\left \lceil x \right \rceil$         | `ceil(2.1)`  |
+| $f(x)=\left \lfloor x \right \rfloor$       | `floor(2.1)` |
+| $f(x)=\left \langle x \right \rangle$(四舍五入) | `round(2.1)` |
+
+### 注意⚠️
+1. $\left\lfloor  \frac{a}{b} \right\rfloor$
+	- 别用：`floor(1.0 * a / b)`
+	- 要用：`a / b`
+2. $\left \lceil \frac {a}{b} \right \rceil$
+	- 别用：`ceil(1.0 * a / b)`
+    - 要用：`(a + b - 1) / b` （$\left\lceil  \frac{a}{b}  \right\rceil=\left\lceil  \frac{a+b-1}{b}  \right\rceil$）
+3. $\lceil \sqrt{ x } \rceil$
+	- 别用：`(int) sqrt(a)`
+	- 要用：二分查找
+4. $a^b$
+	- 别用：`pow(a, b)`
+	- 要用：快速幂
+5. $\lceil \log_{2}a \rceil$
+	- 别用：`log2(a)`
+	- 要用：`__lg` （不规范，但是这是竞赛）/ `bit_width`（C++20 可用）
+
+## `gcd()` / `lcm()`
+
+（C++17）返回最大公因数 / 最小公倍数
+
+```cpp
+int x = gcd(8, 12); // 4
+int y = lcm(8, 12); // 24
+```
+
+当然，`gcd` / `lcm` 函数也挺好写，直接写也行（欧几里得算法）：
+
+```cpp
+int gcd(int a, int b)
+{
+    if (!b)
+        return a;
+    return gcd(b, a % b);
+}
+
+int lcm(int a, int b)
+{
+    return a / gcd(a, b) * b;
+}
+```
