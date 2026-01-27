@@ -509,19 +509,19 @@ sort(arr.begin(), arr.end(), greater<int>());
 
 如果需要完成特殊比较，则需要手写比较器。
 
-比较器函数返回值是 bool 类型，传参是需要比较的两个元素。记我们定义的该比较操作为 ：
+比较器函数返回值是 bool 类型，传参是需要比较的两个元素。记我们定义的该比较操作为$ ：
 
-- 若 ，则比较器函数应当返回 `true`
-- 若 ，则比较器函数应当返回 `false`
+- 若a$b ，则比较器函数应当返回 `true`
+- 若 a❌$b ，则比较器函数应当返回 `false`
 
-**注意：**如果 ，比较器函数必须返回 `false`
+**注意：** 如果 ，比较器函数必须返回 `false`
 
 ```cpp
 bool cmp(pair<int, int> a, pair<int, int> b)
 {
-    if (a.second != b.second)
-        return a.second < b.second;
-    return a.first > b.first;
+    if (a.second != b.second)// 1. 首先比较第二个数 (second)
+        return a.second < b.second;//如果第二个数不等，按第二个数升序排列
+    return a.first > b.first;// 2. 如果第二个数相等，按第一个数 (first) 降序排列 
 }
 
 int main()
@@ -532,4 +532,24 @@ int main()
 }
 ```
 
-##
+## `lower_bound()` / `upper_bound()`
+
+在**已升序排序**的元素中，应用二分查找检索指定元素，返回对应元素迭代器位置。**找不到则返回尾迭代器。**
+
+- `lower_bound()`: 寻找 $\geq x$ 的第一个元素的位置
+- `upper_bound()`: 寻找 $>x$ 的第一个元素的位置
+
+怎么找 $\leq x$ / $<x$ 的第一个元素呢？
+
+-  的第一个元素的前一个元素（如果有）便是  $\leq x$ 的第一个元素
+-  的第一个元素的前一个元素（如果有）便是 $<x$ 的第一个元素
+
+返回的是迭代器，如何转成下标索引呢？减去头迭代器即可。
+
+### 示例
+```cpp
+vector<int>arr{0,1,1,8,8,9,9};
+//找>8的位置
+int pos = upper_bound(arr.begin(),arr.end(),8)-arr.begin();
+cout<<pos<<endl;
+```

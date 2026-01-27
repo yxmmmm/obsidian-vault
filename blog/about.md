@@ -25,9 +25,9 @@ During the first semester of my **freshman year**, I learned the basics of C lan
 - [ ] AcWing lessons
 - [ ] **AtCoder (ABC)** and **Codeforces (CF)** practice(if possible)
 #### Mathematical Modeling and Paper Formatting
-- [ ] $\LaTeX$ grammar
+- [x] $\LaTeX$ grammar ✅ 2026-01-27
 - [ ] Linear Algebra
-- [ ] lessons from *dashixiong* and *njfu*
+- [x] lessons from *dashixiong* and *njfu* ✅ 2026-01-27
 
 ## My Devices
 - **MacBook Air (M1 Chip)** My primary productivity tool. Thanks to macOS, I stay focused and avoid getting addicted to video games. ξ( ✿＞◡❛)
