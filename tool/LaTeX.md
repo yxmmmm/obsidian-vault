@@ -369,9 +369,9 @@ Description,加粗目标
 \usepackage{graphicx}
 
 %假设主图在figure文件夹，标志在logo文件夹，但是会先在根目录中寻找，所以要注意同名问题
-graphicspath{{figures/}{logos/}}
+\graphicspath{{figures/}{logos/}}
 %想居中可加begin{center}
-\includegraphics[scale/height/width/angle=< >]{}
+\include
 
 ```
 

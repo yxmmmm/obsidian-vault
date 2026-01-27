@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"a320048f63e744a5","x":-429,"y":-780,"width":589,"height":1035,"type":"file","file":"统计.md"},
-		{"id":"014bffcac29b0664","x":160,"y":-780,"width":562,"height":360,"type":"file","file":"打卡.md"}
-	],
-	"edges":[]
-}
