@@ -554,3 +554,22 @@ int pos = upper_bound(arr.begin(),arr.end(),8)-arr.begin();
 if(pos=arr.size()) cout<<"no"<<endl;
 cout<<pos<<endl;
 ```
+
+##  `reverse()`
+
+反转一个可迭代对象的元素顺序
+
+**用法示例**
+
+```cpp
+template< class BidirIt >
+void reverse( BidirIt first, BidirIt last );
+```
+
+```cpp
+vector<int> arr(10);
+iota(arr.begin(), arr.end(), 1);
+// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+reverse(arr.begin(), arr.end());
+// 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+```
