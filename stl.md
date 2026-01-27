@@ -551,5 +551,6 @@ int main()
 vector<int>arr{0,1,1,8,8,9,9};
 //找>8的位置
 int pos = upper_bound(arr.begin(),arr.end(),8)-arr.begin();
+if(pos=arr.size()) cout<<"no"<<endl;
 cout<<pos<<endl;
 ```
