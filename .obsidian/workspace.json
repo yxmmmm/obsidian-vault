@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-01-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-01-27"
             }
           }
         ]
@@ -255,11 +255,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20a422c78060a7bb",
+  "active": "220af336afe2999c",
   "lastOpenFiles": [
-    "tool/统计.md",
-    "daily/2026-01-27.md",
     "tool/打卡.md",
+    "components/daily-check/2026-01-27_23-13-29_948.md",
+    "components/daily-check/2026-01-27_23-13-27_283.md",
+    "daily/2026-01-27.md",
+    "tool/统计.md",
     "STL.md",
     "blog/monthly report/2025-12.md",
     "blog/about.md",
@@ -284,8 +286,6 @@
     "Users/yangxiaomao",
     "Users",
     "daily/2026-01-22.md",
-    "components/daily-check/2026-01-22_22-25-31_953.md",
-    "components/daily-check/2026-01-22_22-25-29_521.md",
     "components/daily-check",
     "未命名.base",
     "未命名 1.base",
