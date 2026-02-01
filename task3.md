@@ -55,7 +55,9 @@ $$\text{Total Var}(Y) = \text{Var}(X'\beta) + \text{Var}(\alpha_{partner}) + \te
 
 ![image-20260201133822428](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260201133822428.png)
 
-![image-20260201133838346](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260201133838346.png)
+![Code_Generated_Image (2)](/Users/yangxiaomao/Downloads/Code_Generated_Image (2).png)
+
+
 
 ------
 
