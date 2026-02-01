@@ -14,6 +14,8 @@ $$Placement_i = \gamma_0 + \gamma_1 \bar{S}_i + \gamma_2 Age_i + \gamma_3 1_{Ind
 
 其中 $\bar{S}_i = \frac{1}{T_i} \sum_{t=1}^{T_i} S_{i,t}$ 是平均评委分数。
 
+![image-20260201133046727](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260201133046727.png)
+
 ------
 
 ## 3.3 舞者效应分析
@@ -34,7 +36,7 @@ $$\text{Partner Rank} = \text{rank}(\hat{\alpha}_{partner})$$
 
 $$\text{Total Var}(Y) = \text{Var}(X'\beta) + \text{Var}(\alpha_{partner}) + \text{Var}(\varepsilon)$$
 
-$$\rho_{partner} = \frac{\text{Var}(\alpha_{partner})}{\text{Total Var}(Y)}$$
+![Code_Generated_Image (1)](/Users/yangxiaomao/Downloads/Code_Generated_Image (1).png)
 
 ------
 
