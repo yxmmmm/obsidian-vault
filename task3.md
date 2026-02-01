@@ -53,6 +53,10 @@ $$\text{Total Var}(Y) = \text{Var}(X'\beta) + \text{Var}(\alpha_{partner}) + \te
 - **职业类别（虚拟变量）：** $Y = \beta_0 + \sum_{k=1}^K \beta_k 1_{Industry_k} + \dots$
 - **交互效应：** $Y = \beta_0 + \beta_1 Age + \beta_2 1_{Athlete} + \beta_3 (Age \times 1_{Athlete}) + \dots$
 
+![image-20260201133822428](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260201133822428.png)
+
+![image-20260201133838346](/Users/yangxiaomao/Library/Application Support/typora-user-images/image-20260201133838346.png)
+
 ------
 
 ## 3.5 差异性检验
