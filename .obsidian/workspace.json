@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "task1.md",
+                "file": "STL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "task1"
+              "title": "STL"
             }
           }
         ]
@@ -211,12 +211,12 @@
   },
   "active": "a2d5df263abceecf",
   "lastOpenFiles": [
+    "task1全.md",
+    "task1.md",
     "mermaid.md",
     "Untitled.md",
     "task3~.md",
     "task3.md",
-    "task1全.md",
-    "task1.md",
     "tool/打卡.md",
     "tool/统计.md",
     "daily/2026-01-28.md",
