@@ -11,10 +11,14 @@
             "id": "a2d5df263abceecf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Gemini给的algorithm建议.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Gemini给的algorithm建议"
             }
           }
         ]
@@ -207,10 +211,11 @@
   },
   "active": "f02ed9f42b04a85c",
   "lastOpenFiles": [
+    "算法/STL~.md",
+    "算法/STL.md",
     "daily/Excalidraw/Drawing 2026-02-06 14.23.14.excalidraw.md",
     "daily/Excalidraw",
     "算法",
-    "算法/STL.md",
     "tool/统计.md",
     "tool/打卡.md",
     "task1全.md",
@@ -234,7 +239,6 @@
     "components/daily-check/2026-01-26_22-40-39_353.md",
     "components/daily-check/2026-01-26_22-40-38_202.md",
     "components/daily-check/2026-01-26_22-40-37_736.md",
-    "components/daily-check/2026-01-26_22-40-36_570.md",
     "Users/yangxiaomao/Library",
     "Users/yangxiaomao",
     "Users",
