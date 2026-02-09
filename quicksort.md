@@ -11,6 +11,7 @@
 using namespace std;
 	const int N=1e6+10;
   int q[N];
+	int n;
   
 void quicksort(int q[],int l,int r)
 {
