@@ -18,10 +18,10 @@ void quicksort(int q[],int l,int r)
   if(l>=r)return;
   
   int x=q[l],i=l-1,j=r+1;//当以j为分治界点时，x=q[l]||x=q[l+r>>1]
-  while(i<j)
+  while(i<j)//不可<=会造成无限划分
   {
-    do i++;while(q[i]<x);
-    do j--;while(q[j]>x);
+    do i++;while(q[i]<x);//必须do-while，防止当q[i]和q[j]都为 x 时, i 和 j 都不会更新,导致 while 陷入死循环
+    do j--;while(q[j]>x);//不可全等，可能会一直循环下去TLE
     if(i<j)swap(q[i],q[j]);//停止后交换
   }
   
