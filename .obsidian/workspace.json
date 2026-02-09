@@ -257,6 +257,8 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "algorithm/排序/shell排序.md",
+    "shell排序~.md",
     "shell排序.md",
     "Untitled.md",
     "algorithm/排序/插入排序.md",
@@ -284,8 +286,6 @@
     "algorithm/c语言/数组/数组易错.md",
     "algorithm/c语言/数组/数组与函数.md",
     "algorithm/c语言/指针/野指针.md",
-    "algorithm/c语言/指针/指针运算.md",
-    "algorithm/c语言/指针/指针数组.md",
     "algorithm/c语言/数组",
     "algorithm/c语言/指针",
     "algorithm/c语言/字符串",
