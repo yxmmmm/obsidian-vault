@@ -257,6 +257,7 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "algorithm/排序/quicksort.md",
     "tool/统计.md",
     "tool/打卡.md",
     "daily/2026-02-09.md",
@@ -285,7 +286,6 @@
     "algorithm/c语言/函数/函数调用.md",
     "algorithm/c语言/函数/函数概念.md",
     "algorithm/c语言/函数/函数易错.md",
-    "algorithm/c语言/数组/数组易错.md",
     "algorithm/c语言/数组",
     "algorithm/c语言/指针",
     "algorithm/c语言/字符串",
