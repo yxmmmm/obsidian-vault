@@ -4,6 +4,8 @@
 
 ![算法-2](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault%E7%AE%97%E6%B3%95-2.jpg)
 
+**平均时间复杂度$O(logn)$**
+
 # 代码实现
 
 ```cpp
@@ -40,3 +42,4 @@ int main(){
 }
 ```
 
+**快排本身不稳定，但将其设成一个二元组就可以变稳定**
