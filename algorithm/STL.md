@@ -639,7 +639,7 @@ arr.erase(unique(arr.begin(), arr.end()), arr.end());
 	- 要用：`a / b`
 2. $\left \lceil \frac {a}{b} \right \rceil$
 	- 别用：`ceil(1.0 * a / b)`
-    - 要用：`(a + b - 1) / b` （$\left\lceil  \frac{a}{b}  \right\rceil=\left\lceil  \frac{a+b-1}{b}  \right\rceil$）
+    - 要用：`(a + b - 1) / b` （$\left\lceil  \frac{a}{b}  \right\rceil=\left\lfloor  \frac{a+b-1}{b}  \right\rfloor$）
 3. $\lceil \sqrt{ x } \rceil$
 	- 别用：`(int) sqrt(a)`
 	- 要用：二分查找
