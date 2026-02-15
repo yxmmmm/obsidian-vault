@@ -674,3 +674,58 @@ int lcm(int a, int b)
     return a / gcd(a, b) * b;
 }
 ```
+
+# 语法🍬
+
+## auto关键字
+
+声明变量用auto代替类型名字，编译器在编译期间自动推导变量类型
+
+```cpp
+auto x=10;//int 
+auto x=3.14;//double
+auto x='a';//char
+```
+
+
+
+## 基于范围的for循环
+
+```cpp
+int main(){
+  int a[]={1,1,4,5,1,4};
+  for(int el: a)cout<<el<<endl;
+}
+```
+
+## 结构化绑定（c++17）
+
+示例1:pair输出
+
+```cpp
+pair<int,int>u={1,2};
+cout<<u.first<<" "<<u.second<<endl;//正常输出 
+
+auto [x,y]=u;//结构化绑定
+cout<<x<<" "<<y<<endl;
+```
+
+示例2:vector<pair<int,int>>
+
+```cpp
+vector<pair<int,int>>seq;
+
+for(auto u:seq)
+{
+  int x=seq.first;
+  int y=seq.second;
+}//正常写法
+
+for(auto [x,y]:seq)
+{
+  //....
+}
+```
+
+
+
