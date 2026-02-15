@@ -727,5 +727,35 @@ for(auto [x,y]:seq)
 }
 ```
 
+## lambda表达式
 
+允许在任何地方定义函数
+
+基础用法
+
+```cpp
+auto funcname = [&](type1 x1,type2 x2)->returntype{
+  //...
+};
+```
+
+- lambda表达式是语句，不能忘分号
+- 当采用 [&]时，Lambda 函数可以修改外部的变量，采用[=]时则不行
+- -> returnType 可省略。
+
+示例1
+
+```cpp
+int main()
+{
+  auto touppercase=[=](string s)->string{
+    for(auto ele:s)
+    {
+      ele=toupper(ele)
+      return s;
+    }
+  }
+  cout<<touppercase("hello world")<<endl;
+}
+```
 
