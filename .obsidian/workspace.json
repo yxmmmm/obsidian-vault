@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-02-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-02-17"
             }
           }
         ]
@@ -255,8 +255,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20a422c78060a7bb",
+  "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
+    "daily/2026-02-17.md",
+    "tool/打卡.md",
+    "components/daily-check/2026-02-17_23-36-44_728.md",
+    "components/daily-check/2026-02-17_23-36-44_077.md",
+    "components/daily-check/2026-02-17_23-36-43_610.md",
+    "components/daily-check/2026-02-17_23-36-42_612.md",
+    "components/daily-check/2026-02-17_23-36-41_987.md",
     "algorithm/高精度.md",
     "高精度.md",
     "Untitled.md",
@@ -269,20 +277,12 @@
     "归并排序.md",
     "algorithm/排序/quicksort~.md",
     "algorithm/排序/quicksort.md",
-    "tool/统计.md",
-    "tool/打卡.md",
     "daily/2026-02-09.md",
     "quicksort~.md",
     "quicksort.md",
     "algorithm/排序/shell排序.md",
     "shell排序~.md",
     "shell排序.md",
-    "algorithm/排序/插入排序.md",
-    "daily/2026-02-08.md",
-    "插入排序~.md",
-    "algorithm/排序/冒泡~.md",
-    "插入排序.md",
-    "algorithm/题解/牛客寒假营第二场H.md",
     "algorithm/题解",
     "题解",
     "Untitled Folder",
