@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "1b89740eb6502834",
+    "id": "bffdc9f800c0d955",
     "type": "split",
     "children": [
       {
-        "id": "8b7ceca55c12686b",
+        "id": "4ab196dc3d300db3",
         "type": "tabs",
         "children": [
           {
-            "id": "4369ed403a11896d",
+            "id": "ba6797257e5dd557",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-01-21.md",
+                "file": "STL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-21"
+              "title": "STL"
             }
           }
         ]
@@ -27,11 +27,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d07808d9f15c3b0a",
+    "id": "e9efe35de4db1e6f",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "682495a9c901de42",
+        "id": "f8a1ed88b40fab67",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -44,7 +44,7 @@
         }
       },
       {
-        "id": "964f5a51c313bcfc",
+        "id": "7e307a9b255d6701",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -61,7 +61,7 @@
         }
       },
       {
-        "id": "5d5367885c76f950",
+        "id": "c4b6ebe32e583593",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -76,7 +76,7 @@
         }
       },
       {
-        "id": "fb786670f0c8559b",
+        "id": "6746376572373b4b",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -90,7 +90,7 @@
         }
       },
       {
-        "id": "6ed1f39286993b7b",
+        "id": "b25ccf1e97373238",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -103,16 +103,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "aed3f8b6d564978a",
+    "id": "5a1b853654b576af",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "876ce1aebd7351a1",
+        "id": "22be77c8485abda9",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "2026-01-21.md",
+            "file": "STL.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,11 +126,12 @@
         }
       },
       {
-        "id": "29e51e56914ead6f",
+        "id": "477894a534ee2cfc",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "STL.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -139,27 +140,18 @@
         }
       },
       {
-        "id": "6762e1e650e82379",
+        "id": "8e40efa1d4dc7986",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
+            "file": "STL.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
           },
           "icon": "lucide-list",
           "title": "大纲"
-        }
-      },
-      {
-        "id": "cf2e468070cc2ab6",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {},
-          "icon": "lucide-ghost",
-          "title": "calendar"
         }
       }
     ],
@@ -176,14 +168,6 @@
       "bases:新建数据库": false
     }
   },
-  "active": "4369ed403a11896d",
-  "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-02-06 14.23.14.excalidraw.md",
-    "2026-01-21.md",
-    "Excalidraw",
-    "2026-01-25.md",
-    "未命名.base",
-    "2025-11-24.md",
-    "2026-01-15.md"
-  ]
+  "active": "ba6797257e5dd557",
+  "lastOpenFiles": []
 }
