@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-02-19.md",
+                "file": "tool/统计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-19"
+              "title": "统计"
             }
           }
         ]
@@ -257,11 +257,13 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
-    "离散化.md",
+    "tool/打卡.md",
+    "离散化~.md",
+    "Untitled~.md",
     "Untitled.md",
+    "离散化.md",
     "algorithm/位运算.md",
     "tool/统计.md",
-    "tool/打卡.md",
     "位运算.md",
     "algorithm/差分.md",
     "algorithm/二分.md",
@@ -281,8 +283,6 @@
     "双指针.md",
     "algorithm/排序/前缀和.md",
     "差分.md",
-    "前缀和~.md",
-    "前缀和.md",
     "algorithm/题解",
     "题解",
     "Untitled Folder",
