@@ -20,9 +20,9 @@ During the first semester of my **freshman year**, I learned the basics of C lan
 - [ ] the rest of advanced mathematics
 - [ ] Linear Algebra
 #### Algorithm Competition
-- [ ] C++ Language Grammar
+- [x] C++ Language Grammar ✅ 2026-02-24
 - [ ] Read _Challenge Programming Competition_ and the _Purple Book_ (Competitive Programming)
-- [ ] AcWing lessons
+- [x] AcWing lessons ✅ 2026-02-24
 - [ ] **AtCoder (ABC)** and **Codeforces (CF)** practice(if possible)
 #### Mathematical Modeling and Paper Formatting
 - [x] $\LaTeX$ grammar ✅ 2026-01-27

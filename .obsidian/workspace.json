@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026MCM C题.md",
+                "file": "blog/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026MCM C题"
+              "title": "about"
             }
           }
         ]
@@ -211,18 +211,21 @@
   },
   "active": "e3952f9f99e5851e",
   "lastOpenFiles": [
+    "blog/monthly report/2026年二月总结.md",
+    "blog/monthly report/2025-12.md",
+    "algorithm/二分.md",
     "2026MCM C题.md",
+    "algorithm/差分.md",
+    "algorithm/c语言/离散化.md",
     "attachment/2026牛客寒假算法基础集训营第二场PDF题面.pdf",
     "attachment",
     "tool/打卡.md",
     "math/关于和式极限的求解方法.md",
-    "2026年二月总结.md",
     "daily/2026-02-20.md",
     "algorithm/区间合并~.md",
     "algorithm/区间合并.md",
     "区间合并.md",
     "Untitled.md",
-    "algorithm/c语言/离散化.md",
     "tool/统计.md",
     "components/daily-check/2026-02-20_20-32-47_024.md",
     "components/daily-check/2026-02-20_20-32-45_827.md",
@@ -232,8 +235,6 @@
     "离散化.md",
     "algorithm/位运算.md",
     "位运算.md",
-    "algorithm/差分.md",
-    "algorithm/二分.md",
     "algorithm/高精度.md",
     "algorithm/前缀和.md",
     "algorithm/双指针.md",
