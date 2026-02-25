@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-02-20.md",
+                "file": "tool/markdown.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-20"
+              "title": "markdown"
             }
           }
         ]
@@ -211,6 +211,12 @@
   },
   "active": "a2d5df263abceecf",
   "lastOpenFiles": [
+    "LaTeX_Test.md",
+    "tool/markdown.md",
+    "tool/LaTeX.md",
+    "tool/统计.md",
+    "tool/打卡.md",
+    "daily/2026-02-20.md",
     "daily/2026-01-28.md",
     "daily/2025-11-29.md",
     "daily/2025-11-27.md",
@@ -220,7 +226,6 @@
     "daily/2025-11-21.md",
     "daily/2025-11-24.md",
     "[[2026-01-17]].md",
-    "tool/打卡.md",
     "Attachments",
     "daily/2026-01-06.md",
     "daily/2026-01-10.md",
@@ -231,13 +236,8 @@
     "daily/2025-12-13.md",
     "daily/2025-12-08.md",
     "daily/2025-11-28.md",
-    "daily/2026-02-20.md",
     "daily/2026-02-06.md",
     "daily/2026-01-27.md",
-    "daily/2026-01-24.md",
-    "daily/2025-12-12.md",
-    "daily/2025-12-04.md",
-    "daily/2025-12-03.md",
     "attachment/2026牛客寒假算法基础集训营第二场PDF题面.pdf",
     "attachment",
     "algorithm/题解",
