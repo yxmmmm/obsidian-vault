@@ -255,12 +255,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "220af336afe2999c",
+  "active": "20a422c78060a7bb",
   "lastOpenFiles": [
+    "components/daily-check/2026-03-01_16-44-27_240.md",
+    "daily/2026-03-01.md",
     "单链表.md",
     "Untitled.md",
     "tool/统计.md",
-    "daily/2026-03-01.md",
     "tool/打卡.md",
     "daily/2026-02-26.md",
     "components/daily-check/2026-02-26_17-23-47_496.md",
@@ -283,7 +284,6 @@
     "[[2026-01-17]].md",
     "Attachments",
     "daily/2026-01-06.md",
-    "daily/2026-01-10.md",
     "attachment/2026牛客寒假算法基础集训营第二场PDF题面.pdf",
     "attachment",
     "algorithm/题解",
