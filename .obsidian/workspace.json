@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-03-01.md",
+                "file": "tool/统计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-01"
+              "title": "统计"
             }
           }
         ]
@@ -257,12 +257,12 @@
   },
   "active": "20a422c78060a7bb",
   "lastOpenFiles": [
-    "components/daily-check/2026-03-01_16-44-27_240.md",
     "daily/2026-03-01.md",
+    "tool/打卡.md",
+    "components/daily-check/2026-03-01_16-44-27_240.md",
     "单链表.md",
     "Untitled.md",
     "tool/统计.md",
-    "tool/打卡.md",
     "daily/2026-02-26.md",
     "components/daily-check/2026-02-26_17-23-47_496.md",
     "components/daily-check/2026-02-26_17-23-44_413.md",
