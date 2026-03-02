@@ -524,3 +524,8 @@ Equation \eqref{pythagorean} iscalled`Gougu theorem' in Chinese
 
 
 
+# 笔记模版
+
+![个人笔记模板_05_副本](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF_05_%E5%89%AF%E6%9C%AC.jpg)
+
+![个人笔记模板_05_副本](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF_06_%E5%89%AF%E6%9C%AC.jpg)

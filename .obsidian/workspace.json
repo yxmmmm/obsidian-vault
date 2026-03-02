@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-03-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-03-02"
             }
           }
         ]
@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8df733147fa6d689",
@@ -257,11 +256,16 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "algorithm/单链表.md",
+    "[[{{yesterday}}]].md",
     "tool/打卡.md",
+    "components/daily-check/2026-03-02_21-29-29_723.md",
+    "components/daily-check/2026-03-02_21-29-21_592.md",
+    "daily/2026-03-02.md",
+    "tool/统计.md",
     "blog/monthly report/2025-12.md",
     "components/daily-check/2026-03-01_21-14-10_833.md",
     "daily/2026-03-01.md",
-    "tool/统计.md",
     "components/daily-check/2026-03-01_16-44-27_240.md",
     "单链表.md",
     "Untitled.md",
@@ -278,11 +282,6 @@
     "daily/2026-01-28.md",
     "daily/2025-11-29.md",
     "daily/2025-11-27.md",
-    "daily/2025-11-25.md",
-    "daily/2025-11-23.md",
-    "daily/2025-11-22.md",
-    "daily/2025-11-21.md",
-    "daily/2025-11-24.md",
     "Attachments",
     "attachment/2026牛客寒假算法基础集训营第二场PDF题面.pdf",
     "attachment",
