@@ -49,3 +49,10 @@ while (cin>>op)
 
 [洛谷-P2955](https://vjudge.net/problem/洛谷-P2955)
 
+# 负数取模
+
+```cpp
+int k=(x%N+N)%N;
+```
+
+负数取模为负数
