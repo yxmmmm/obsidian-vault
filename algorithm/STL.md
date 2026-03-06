@@ -13,7 +13,7 @@ vector<int>arr(100,1)//初始长100int数组初值1
 
 vector<vector<int>> dp(5,vector<int>(6,10))
 //5行6列初值10，二维数组
-vector<vecter<vecter<int>>> dp2(5,vecter<vecter<int>>(6,vecter<int>(4)))
+vector<vector<vector<int>>> dp2(5,vector<vector<int>>(6,vector<int>(4)))
 //6行4列5高，三维数组
 ```
 
@@ -21,7 +21,7 @@ vector<vecter<vecter<int>>> dp2(5,vecter<vecter<int>>(6,vecter<int>(4)))
 ```cpp
 int main()
 {
-	vecter<int> arr;
+	vector<int> arr;
 	// init: arr = []
 	arr.push_back(1);
 	// after: arr = [1]
@@ -87,12 +87,12 @@ stk.pop_back();
 ## 常用方法
 
 
-| 作用             | 用法              | 示例                   |
-| -------------- | --------------- | -------------------- |
-| 构造             | `stack<类型> stk` | `stack<int> stk;`    |
-| 进栈             | `.push(元素)`     | `stk.push(1);`       |
-| 出栈             | `.pop()`        | `stk.pop();`         |
-| 取栈顶            | `.top()`        | `int a = stk.top();` |
+| 作用   | 用法              | 示例                 |
+| ------ | ----------------- | -------------------- |
+| 构造   | `stack<类型> stk` | `stack<int> stk;`    |
+| 进栈   | `.push(元素)`     | `stk.push(1);`       |
+| 出栈   | `.pop()`          | `stk.pop();`         |
+| 取栈顶 | `.top()`          | `int a = stk.top();` |
 
 ## 适用情形
 可用vector当栈用.back()取尾部元素相当于对栈顶操作
@@ -118,15 +118,15 @@ cout<<que.empty()<<endl
 ```
 
 ## 常用方法
-| 作用   | 用法              | 示例                     |
-| ---- | --------------- | ---------------------- |
-| 构造   | `queue<类型> que` | `queue<int> que;`      |
-| 进队   | `.push(元素)`     | `que.push(1);`         |
-| 出队   | `.pop()`        | `que.pop();`           |
-| 取队首  | `.front()`      | `int a = que.front();` |
-| 取队尾  | `.back()`       | `int a = que.back();`  |
-| 查看大小 | `.size()`       | `int a = que.size();`  |
-| 判空   | `.empty()`      | `int a = que.empty();` |
+| 作用     | 用法              | 示例                   |
+| -------- | ----------------- | ---------------------- |
+| 构造     | `queue<类型> que` | `queue<int> que;`      |
+| 进队     | `.push(元素)`     | `que.push(1);`         |
+| 出队     | `.pop()`          | `que.pop();`           |
+| 取队首   | `.front()`        | `int a = que.front();` |
+| 取队尾   | `.back()`         | `int a = que.back();`  |
+| 查看大小 | `.size()`         | `int a = que.size();`  |
+| 判空     | `.empty()`        | `int a = que.empty();` |
 ## 注意⚠️
 **不可访问内部元素**
 
@@ -143,14 +143,14 @@ priority_queue<int, vector<int>, greater<int>> pque2; // 储存int的小顶堆
 
 
 ## 常用方法
-| 作用   | 用法                       | 示例                         |
-| ---- | ------------------------ | -------------------------- |
-| 构造   | `priority_queue<类型> que` | `priority_queue<int> que;` |
-| 进堆   | `.push(元素)`              | `pque.push(1);`            |
-| 出堆   | `.pop()`                 | `pque.pop();`              |
-| 取堆顶  | `.top()`                 | `int a = pque.top();`      |
-| 查看大小 | `.size()`                | `int a = pque.size();`     |
-| 判空   | `.empty()`               | `int a = pque.empty();`    |
+| 作用     | 用法                       | 示例                       |
+| -------- | -------------------------- | -------------------------- |
+| 构造     | `priority_queue<类型> que` | `priority_queue<int> que;` |
+| 进堆     | `.push(元素)`              | `pque.push(1);`            |
+| 出堆     | `.pop()`                   | `pque.pop();`              |
+| 取堆顶   | `.top()`                   | `int a = pque.top();`      |
+| 查看大小 | `.size()`                  | `int a = pque.size();`     |
+| 判空     | `.empty()`                 | `int a = pque.empty();`    |
 ## 注意⚠️
 - 仅堆顶可读
 - 所有元素不可写
@@ -165,11 +165,11 @@ priority_queue<int, vector<int>, greater<int>> pque2; // 储存int的小顶堆
 # set
 提供对数时间的插入、删除、查找的集合数据结构。底层原理是红黑树。
 
-| 集合三要素 | 解释              | set     | multiset | unordered_set |
-| ----- | --------------- | ------- | -------- | ------------- |
-| 确定性   | 一个元素要么在集合中，要么不在 | ✔       | ✔        | ✔             |
-| 互异性   | 一个元素仅可以在集合中出现一次 | ✔       | ❌（任意次）   | ✔             |
-| 无序性   | 集合中的元素是没有顺序的    | ❌（从小到大） | ❌（从小到大）  | ✔             |
+| 集合三要素 | 解释                           | set           | multiset      | unordered_set |
+| ---------- | ------------------------------ | ------------- | ------------- | ------------- |
+| 确定性     | 一个元素要么在集合中，要么不在 | ✔             | ✔             | ✔             |
+| 互异性     | 一个元素仅可以在集合中出现一次 | ✔             | ❌（任意次）   | ✔             |
+| 无序性     | 集合中的元素是没有顺序的       | ❌（从小到大） | ❌（从小到大） | ✔             |
 ## 构造
 ```cpp
 set<int> st1; // 储存int的集合（从小到大） 
@@ -192,11 +192,11 @@ cout<<st.empty()<<endl;
 ```
 **增删查均为$o(\log n)$**
 
-| 作用       | 用法            | 示例                      |
-| -------- | ------------- | ----------------------- |
-| 插入元素     | `.insert(元素)` | `st.insert(1);`         |
-| 删除元素     | `.erase(元素)`  | `st.erase(2);`          |
-| 查找元素     | `.find(元素)`   | `auto it = st.find(1);` |
+| 作用             | 用法            | 示例                    |
+| ---------------- | --------------- | ----------------------- |
+| 插入元素         | `.insert(元素)` | `st.insert(1);`         |
+| 删除元素         | `.erase(元素)`  | `st.erase(2);`          |
+| 查找元素         | `.find(元素)`   | `auto it = st.find(1);` |
 | 判断元素是否存在 | `.count(元素)`  | `st.count(3);`          |
 ## 遍历
 
@@ -232,10 +232,10 @@ set 虽说可遍历，但仅可使用迭代器进行遍历，它不存在下标�
 提供对数时间的有序键值对结构。底层原理是红黑树。
 
 
-| 性质  | 解释             | map     | multimap | unordered_map |
-| --- | -------------- | ------- | -------- | ------------- |
-| 互异性 | 一个键仅可以在映射中出现一次 | ✔       | ❌（任意次）   | ✔             |
-| 无序性 | 键是没有顺序的        | ❌（从小到大） | ❌（从小到大）  | ✔             |
+| 性质   | 解释                         | map           | multimap      | unordered_map |
+| ------ | ---------------------------- | ------------- | ------------- | ------------- |
+| 互异性 | 一个键仅可以在映射中出现一次 | ✔             | ❌（任意次）   | ✔             |
+| 无序性 | 键是没有顺序的               | ❌（从小到大） | ❌（从小到大） | ✔             |
 ## 构造
 **`map<键类型, 值类型, 比较器> mp`**
 
@@ -262,17 +262,17 @@ mp.erase(2)//删
 ```
 
 
-| 作用             | 用法             | 示例                      |
-| -------------- | -------------- | ----------------------- |
-| 增 / 改 / 查元素    | 中括号$O(\log n)$ | `mp[1] = 2;`            |
-| 查元素（返回迭代器）     | `.find(元素)`    | `auto it = mp.find(1);` |
-| 删除元素           | `.erase(元素)`   | `mp.erase(2);`          |
-| 判断元素是否存在       | `.count(元素)`   | `mp.count(3);`          |
-| 查看大小 / 清空 / 判空 | 略              | 略                       |
+| 作用                   | 用法              | 示例                    |
+| ---------------------- | ----------------- | ----------------------- |
+| 增 / 改 / 查元素       | 中括号$O(\log n)$ | `mp[1] = 2;`            |
+| 查元素（返回迭代器）   | `.find(元素)`     | `auto it = mp.find(1);` |
+| 删除元素               | `.erase(元素)`    | `mp.erase(2);`          |
+| 判断元素是否存在       | `.count(元素)`    | `mp.count(3);`          |
+| 查看大小 / 清空 / 判空 | 略                | 略                      |
 ## 遍历
 - 迭代器遍历
 ```cpp
-for(map<int,int>::interator it = mp.begin();it!=mp.end();++it)
+for(map<int,int>::iterator it = mp.begin();it!=mp.end();++it)
 	cout<<it->first<<' '<<it->second<<endl;
 	//       键              值
 ```
@@ -329,14 +329,14 @@ cout << s;
 
 ## 操作
 
-| 作用          | 用法                    | 示例                              |
-| ----------- | --------------------- | ------------------------------- |
-| 修改、查询指定下标字符 | `[]`                  | `s[1] = 'a';`                   |
-| 是否相同        | ==                    | `if (s1 == s2) ...`             |
-| 字符串连接       | `+`                   | `string s = s1 + s2;`           |
-| 尾接字符串       | `+=`                  | `s += "awa";`                   |
-| 取子串         | `.substr(起始下标, 子串长度)` | `string sub = s.substr(2, 10);` |
-| 查找字符串       | `.find(字符串, 起始下标)`    | `int pos = s.find("awa");`      |
+| 作用                   | 用法                          | 示例                            |
+| ---------------------- | ----------------------------- | ------------------------------- |
+| 修改、查询指定下标字符 | `[]`                          | `s[1] = 'a';`                   |
+| 是否相同               | ==                            | `if (s1 == s2) ...`             |
+| 字符串连接             | `+`                           | `string s = s1 + s2;`           |
+| 尾接字符串             | `+=`                          | `s += "awa";`                   |
+| 取子串                 | `.substr(起始下标, 子串长度)` | `string sub = s.substr(2, 10);` |
+| 查找字符串             | `.find(字符串, 起始下标)`     | `int pos = s.find("awa");`      |
 ```cpp
 string s1="123123"
 if(s1.find(312)!=string::npos)
@@ -345,14 +345,14 @@ cout<<"yes"<<endl;
 
 ## 数值与字符串互转（C++11）
 
-|源|目的|函数|
-|---|---|---|
-|int / long long / float / double / long double|string|to_string()|
-|string|int|stoi()|
-|string|long long|stoll()|
-|string|float|stof()|
-|string|double|stod()|
-|string|long double|stold()|
+| 源                                             | 目的        | 函数        |
+| ---------------------------------------------- | ----------- | ----------- |
+| int / long long / float / double / long double | string      | to_string() |
+| string                                         | int         | stoi()      |
+| string                                         | long long   | stoll()     |
+| string                                         | float       | stof()      |
+| string                                         | double      | stod()      |
+| string                                         | long double | stold()     |
 ## 注意⚠️
 #### 尾接字符串一定要用 `+=`
 
@@ -622,15 +622,15 @@ arr.erase(unique(arr.begin(), arr.end()), arr.end());
 
 所有函数参数均支持 `int` / `long long` / `float` / `double` / `long double`
 
-| 公式                                          | 示例           |
-| ------------------------------------------- | ------------ |
-| $f(x)=\left \| x \right \|$                 | `abs(-1.0)`  |
-| $f(x)=e^x$                                  | `exp(2)`     |
-| $f(x)=\ln x$                                | `log(3)`     |
-| $f(x)=x^y$                                  | `pow(2, 3)`  |
-| $f(x)=\sqrt{ x }$                           | `sqrt(2)`    |
-| $f(x)=\left \lceil x \right \rceil$         | `ceil(2.1)`  |
-| $f(x)=\left \lfloor x \right \rfloor$       | `floor(2.1)` |
+| 公式                                            | 示例         |
+| ----------------------------------------------- | ------------ |
+| $f(x)=\left \| x \right \|$                     | `abs(-1.0)`  |
+| $f(x)=e^x$                                      | `exp(2)`     |
+| $f(x)=\ln x$                                    | `log(3)`     |
+| $f(x)=x^y$                                      | `pow(2, 3)`  |
+| $f(x)=\sqrt{ x }$                               | `sqrt(2)`    |
+| $f(x)=\left \lceil x \right \rceil$             | `ceil(2.1)`  |
+| $f(x)=\left \lfloor x \right \rfloor$           | `floor(2.1)` |
 | $f(x)=\left \langle x \right \rangle$(四舍五入) | `round(2.1)` |
 
 ### 注意⚠️
