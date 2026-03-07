@@ -326,7 +326,7 @@ cout<<pr.first<<' '<<pr.second<endl;
 - 语法糖
 
 ```cpp
-for(auto [x,y]:mp)
+for(auto &[x,y]:mp)
   cout<<x<<' '<<y<<endl;
 ```
 
@@ -462,6 +462,21 @@ first第一关键字，second第二关键字(字典序)
  ## 存三种元素
 
 `pair<int,pair<int,int>>p`
+
+
+
+# bitset
+
+压位，节省8位空间
+
+## 应用
+
+```cpp
+bitset<10000> S;
+~s//q
+```
+
+
 
 
 
