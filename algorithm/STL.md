@@ -130,15 +130,15 @@ cout<<que.empty()<<endl
 ```
 
 ## 常用方法
-| 作用     | 用法              | 示例                   |
-| -------- | ----------------- | ---------------------- |
-| 构造     | `queue<类型> que` | `queue<int> que;`      |
-| 进队     | `.push(元素)`     | `que.push(1);`         |
-| 出队     | `.pop()`          | `que.pop();`           |
-| 取队首   | `.front()`        | `int a = que.front();` |
-| 取队尾   | `.back()`         | `int a = que.back();`  |
-| 查看大小 | `.size()`         | `int a = que.size();`  |
-| 判空     | `.empty()`        | `int a = que.empty();` |
+| 作用         | 用法              | 示例                   |
+| ------------ | ----------------- | ---------------------- |
+| 构造         | `queue<类型> que` | `queue<int> que;`      |
+| 进队（队尾） | `.push(元素)`     | `que.push(1);`         |
+| 出队（队头） | `.pop()`          | `que.pop();`           |
+| 取队首       | `.front()`        | `int a = que.front();` |
+| 取队尾       | `.back()`         | `int a = que.back();`  |
+| 查看大小     | `.size()`         | `int a = que.size();`  |
+| 判空         | `.empty()`        | `int a = que.empty();` |
 ## 注意⚠️
 **不可访问内部元素**
 
@@ -336,6 +336,7 @@ string s3(10, '6');  // 构造字符串，通过构造函数构造为6666666666
 string s; 
 cin >> s; 
 cout << s;
+printf("%s",a.c_str());//.c_str()返回数组首地址
 ```
 
 
