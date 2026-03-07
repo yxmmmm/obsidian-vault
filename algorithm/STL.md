@@ -155,14 +155,14 @@ priority_queue<int, vector<int>, greater<int>> pque2; // 储存int的小顶堆
 
 
 ## 常用方法
-| 作用     | 用法                       | 示例                       |
-| -------- | -------------------------- | -------------------------- |
-| 构造     | `priority_queue<类型> que` | `priority_queue<int> que;` |
-| 进堆     | `.push(元素)`              | `pque.push(1);`            |
-| 出堆     | `.pop()`                   | `pque.pop();`              |
-| 取堆顶   | `.top()`                   | `int a = pque.top();`      |
-| 查看大小 | `.size()`                  | `int a = pque.size();`     |
-| 判空     | `.empty()`                 | `int a = pque.empty();`    |
+| 作用             | 用法                       | 示例                       |
+| ---------------- | -------------------------- | -------------------------- |
+| 构造             | `priority_queue<类型> que` | `priority_queue<int> que;` |
+| 进堆             | `.push(元素)`              | `pque.push(1);`            |
+| 出堆（弹出堆顶） | `.pop()`                   | `pque.pop();`              |
+| 取堆顶           | `.top()`                   | `int a = pque.top();`      |
+| 查看大小         | `.size()`                  | `int a = pque.size();`     |
+| 判空             | `.empty()`                 | `int a = pque.empty();`    |
 ## 注意⚠️
 - 仅堆顶可读
 - 所有元素不可写
@@ -173,6 +173,8 @@ priority_queue<int, vector<int>, greater<int>> pque2; // 储存int的小顶堆
 	qpue.push(new);
 	```
 	**实质是弹出堆顶并涌入一个新的元素**
+	
+- 无clear指令
 
 # set
 提供对数时间的插入、删除、查找的集合数据结构。底层原理是红黑树。
