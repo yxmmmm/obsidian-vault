@@ -92,12 +92,12 @@ long long a = a.size() * a.size(); // 直接溢出变成0了
 
 强化vector
 
-| 作用         | 用法              | 示例                 |
-| ------------ | ----------------- | -------------------- |
-| 大小         | `stack<类型> stk` | `stack<int> stk;`    |
-| 进栈（栈顶） | `.push(元素)`     | `stk.push(1);`       |
-| 出栈         | `.pop()`          | `stk.pop();`         |
-| 取栈顶       | `.top()`          | `int a = stk.top();` |
+| 作用      | 用法                         | 示例                              |
+| --------- | ---------------------------- | --------------------------------- |
+| 大小      | `.size()`                    | `dque.size();`                    |
+| 进/出队尾 | `.push_back()/.pop_back()`   | `dque.push_back()/.pop_back()`    |
+| 进/出队首 | `.push_front()/.pop_front()` | `dque.push_front()/.pop_front();` |
+| 取栈顶    | `.top()`                     | `int a = stk.top();`              |
 
 # stack
 
