@@ -90,14 +90,17 @@ long long a = a.size() * a.size(); // 直接溢出变成0了
 
 # deque
 
-强化vector
+强化vector,但效率低的发指
 
 | 作用      | 用法                         | 示例                              |
 | --------- | ---------------------------- | --------------------------------- |
 | 大小      | `.size()`                    | `dque.size();`                    |
 | 进/出队尾 | `.push_back()/.pop_back()`   | `dque.push_back()/.pop_back()`    |
 | 进/出队首 | `.push_front()/.pop_front()` | `dque.push_front()/.pop_front();` |
-| 取栈顶    | `.top()`                     | `int a = stk.top();`              |
+| 取队顶    | `.top()`                     | `int a = dque.top();`             |
+| 取队首/尾 | `.front()/.back()`           | `int b = dque.front()/.back()`    |
+| 清除      | `.clear()`                   | `dque.clear()`                    |
+| 判空      | `.empty()`                   | `dque.empty()`                    |
 
 # stack
 
@@ -160,9 +163,11 @@ cout<<que.empty()<<endl
 ## 构造
 **`priority_queue<类型, 容器, 比较器> pque`**
 **比较器默认为less<类型>**
+
 ```cpp
 priority_queue<int>pque//大顶堆
 priority_queue<int, vector<int>, greater<int>> pque2; // 储存int的小顶堆
+pque.push(-x)//负数存储实现小顶堆黑科技
 ```
 
 
