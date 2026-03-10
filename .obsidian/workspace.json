@@ -255,10 +255,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "220af336afe2999c",
+  "active": "20a422c78060a7bb",
   "lastOpenFiles": [
-    "tool/统计.md",
+    "components/daily-check/2026-03-10_21-42-32_500.md",
+    "components/daily-check/2026-03-10_21-42-30_340.md",
     "daily/2026-03-10.md",
+    "tool/统计.md",
     "tool/打卡.md",
     "daily/2026-03-09.md",
     "algorithm/KMP.md",
@@ -283,8 +285,6 @@
     "Untitled Folder",
     "algorithm/哈希表.md",
     "哈希表.md",
-    "Python/学习Python 的100天/Day 2  （1.17）  变量、标识符、整数、浮点数、运算符.md",
-    "Python/学习Python 的100天/Day 1  （1.16)   Python环境的安装、注释、海龟绘图.md",
     "Python/学习Python 的100天",
     "Python",
     "Attachments",
