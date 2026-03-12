@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-03-10.md",
+                "file": "daily/2026-03-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-10"
+              "title": "2026-03-12"
             }
           }
         ]
@@ -255,8 +255,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20a422c78060a7bb",
+  "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
+    "daily/2026-03-12.md",
+    "tool/打卡.md",
     "algorithm/堆~.md",
     "algorithm/堆.md",
     "堆.md",
@@ -269,20 +272,17 @@
     "algorithm/trie🌲.md",
     "components/daily-check/2026-03-11_08-40-55_163.md",
     "daily/2026-03-10.md",
-    "tool/打卡.md",
     "algorithm/trie数~.md",
     "algorithm/trie数.md",
     "trie数.md",
     "components/daily-check/2026-03-10_21-42-32_500.md",
     "components/daily-check/2026-03-10_21-42-30_340.md",
-    "tool/统计.md",
     "daily/2026-03-09.md",
     "algorithm/KMP.md",
     "KMP~.md",
     "KMP.md",
     "components/daily-check/2026-03-09_20-33-55_553.md",
     "daily/2026-03-07.md",
-    "components/daily-check/2026-03-07_15-16-24_230.md",
     "数据结构",
     "Untitled Folder",
     "Python/学习Python 的100天",
