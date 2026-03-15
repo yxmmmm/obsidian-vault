@@ -30,7 +30,7 @@
       "showTitle": true,
       "showShadow": true,
       "createAt": "2026-01-18T12:04:54.093Z",
-      "updateAt": "2026-03-06T14:33:51.775Z",
+      "updateAt": "2026-03-15T10:24:09.803Z",
       "tasks": [
         {
           "id": "e279b5fc-4bc9-496b-97e7-e478172491bc",
@@ -40,6 +40,11 @@
         {
           "id": "b032fcd4-084b-4a4d-b951-9b4b594927df",
           "name": "🏋️健身",
+          "options": {}
+        },
+        {
+          "id": "981988e8-d3a3-436e-a1e6-1e4da747c838",
+          "name": "戒色",
           "options": {}
         }
       ],

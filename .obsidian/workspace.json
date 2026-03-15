@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-03-14.md",
+                "file": "daily/2026-03-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-14"
+              "title": "2026-03-15"
             }
           }
         ]
@@ -255,8 +255,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20a422c78060a7bb",
+  "active": "b0f643148154128b",
   "lastOpenFiles": [
+    "tool/打卡.md",
+    "components/daily-check/2026-03-15_18-24-34_162.md",
+    "components/view/打卡戒色.components",
+    "components/daily-check/2026-03-15_18-22-48_212.md",
+    "components/daily-check/2026-03-15_18-22-47_458.md",
+    "daily/2026-03-15.md",
+    "tool/统计.md",
     "algorithm/bfs~.md",
     "algorithm/bfs.md",
     "bfs.md",
@@ -267,8 +274,6 @@
     "components/daily-check/2026-03-14_22-36-04_035.md",
     "components/daily-check/2026-03-14_22-36-02_036.md",
     "daily/2026-03-14.md",
-    "tool/统计.md",
-    "tool/打卡.md",
     "daily/2026-03-12.md",
     "components/daily-check/2026-03-12_21-58-44_066.md",
     "components/daily-check/2026-03-12_21-58-40_666.md",
@@ -279,10 +284,6 @@
     "algorithm/并查集~.md",
     "algorithm/并查集.md",
     "并查集.md",
-    "Python/学习Python 的100天/Day 6  （1.24）元组~.md",
-    "Python/学习Python 的100天/Day 5  （1.21）  列表~.md",
-    "algorithm/trie🌲.md",
-    "components/daily-check/2026-03-11_08-40-55_163.md",
     "数据结构",
     "Untitled Folder",
     "Python/学习Python 的100天",
@@ -292,7 +293,6 @@
     "attachment",
     "algorithm/题解",
     "题解",
-    "algorithm/c语言/数组",
     "未命名.canvas"
   ]
 }
