@@ -97,7 +97,6 @@ long long a = a.size() * a.size(); // 直接溢出变成0了
 | 大小      | `.size()`                    | `dque.size();`                    |
 | 进/出队尾 | `.push_back()/.pop_back()`   | `dque.push_back()/.pop_back()`    |
 | 进/出队首 | `.push_front()/.pop_front()` | `dque.push_front()/.pop_front();` |
-| 取队顶    | `.top()`                     | `int a = dque.top();`             |
 | 取队首/尾 | `.front()/.back()`           | `int b = dque.front()/.back()`    |
 | 清除      | `.clear()`                   | `dque.clear()`                    |
 | 判空      | `.empty()`                   | `dque.empty()`                    |
@@ -108,8 +107,8 @@ long long a = a.size() * a.size(); // 直接溢出变成0了
 
 ```cpp
 stack<double>stk;
-stk.push_back(1.0);
-stk.pop_back();
+stk.push(1.0);
+stk.pop();
 ```
 ## 常用方法
 
@@ -233,7 +232,7 @@ cout<<st.empty()<<endl;
 | 返回**大于**x最小数迭代器     | `.upper_bound()` | `st.upper_bound()`      |
 `.erase()`
 
-	1. 输入一个数x,删除所有x   $O(k+logn)$ k为x个数
+	1. 输入一个数x,删除所有x  O(k+logn) k为x个数
 	1. 输入一个迭代器，删除这个迭代器
 
 ## 遍历
@@ -536,6 +535,7 @@ for (auto it = a.begin(); it != a.end(); ++it)
 // a = [1, 3, 4]
 ```
 **删除一个元素2后，后面的元素都向前移动，it自增导致跳过元素3**
+
 为啥 RE 了？
 
 ```cpp
