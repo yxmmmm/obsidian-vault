@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-03-25.md",
+                "file": "daily/2026-03-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-25"
+              "title": "2026-03-28"
             }
           }
         ]
@@ -255,17 +255,18 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20a422c78060a7bb",
+  "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
+    "daily/2026-03-28.md",
+    "tool/打卡.md",
+    "daily/2026-03-25.md",
     "插值法.md",
     "Untitled.md",
     "components/daily-check/2026-03-27_13-14-05_077.md",
     "components/daily-check/2026-03-27_13-14-02_542.md",
     "components/daily-check/2026-03-27_13-14-01_943.md",
     "components/daily-check/2026-03-27_13-14-00_517.md",
-    "daily/2026-03-25.md",
-    "tool/统计.md",
-    "tool/打卡.md",
     "daily/2026-03-24.md",
     "components/daily-check/2026-03-24_21-40-43_738.md",
     "components/daily-check/2026-03-24_21-40-42_742.md",
@@ -282,7 +283,6 @@
     "components/daily-check/2026-03-23_22-10-11_077.md",
     "components/daily-check/2026-03-23_22-10-10_561.md",
     "components/daily-check/2026-03-23_22-10-09_715.md",
-    "components/daily-check/2026-03-23_22-10-06_180.md",
     "tool/Users/yangxiaomao/Library",
     "tool/Users/yangxiaomao",
     "tool/Users",
