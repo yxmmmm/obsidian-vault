@@ -105,7 +105,7 @@
       "showTitle": true,
       "showShadow": true,
       "createAt": "2026-01-18T11:17:13.882Z",
-      "updateAt": "2026-01-18T11:26:37.770Z",
+      "updateAt": "2026-03-29T02:43:31.007Z",
       "repeatType": "none",
       "pictureFit": "cover",
       "picturePosition": "left",
@@ -115,9 +115,9 @@
       "endMinute": 0,
       "endSecond": 0,
       "timeTextPattern": "dH",
-      "title": "距离寒假结束",
+      "title": "距离大一结束",
       "endYear": 2026,
-      "endMonth": 2,
+      "endMonth": 6,
       "endDayOfMonth": 1
     },
     {
