@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-03-29.md",
+                "file": "daily/2026-03-30.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-29"
+              "title": "2026-03-30"
             }
           }
         ]
@@ -257,9 +257,12 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
-    "tool/统计.md",
-    "daily/2026-03-29.md",
     "tool/打卡.md",
+    "components/daily-check/2026-03-30_19-14-19_020.md",
+    "components/daily-check/2026-03-30_19-14-14_817.md",
+    "daily/2026-03-30.md",
+    "daily/2026-03-29.md",
+    "tool/统计.md",
     "daily/2026-03-28.md",
     "components/daily-check/2026-03-28_22-43-53_026.md",
     "components/daily-check/2026-03-28_22-43-51_052.md",
@@ -280,9 +283,6 @@
     "daily/2026-03-23.md",
     "components/daily-check/2026-03-23_22-10-21_694.md",
     "components/daily-check/2026-03-23_22-10-20_648.md",
-    "components/daily-check/2026-03-23_22-10-18_114.md",
-    "components/daily-check/2026-03-23_22-10-17_716.md",
-    "components/daily-check/2026-03-23_22-10-15_909.md",
     "tool/Users/yangxiaomao/Library",
     "tool/Users/yangxiaomao",
     "tool/Users",
