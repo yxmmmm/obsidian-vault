@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-04-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-04-07"
             }
           }
         ]
@@ -255,9 +255,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20a422c78060a7bb",
+  "active": "220af336afe2999c",
   "lastOpenFiles": [
     "tool/统计.md",
+    "daily/2026-04-07.md",
     "tool/打卡.md",
     "daily/2026-04-01.md",
     "daily/2026-04-02.md",
@@ -282,7 +283,6 @@
     "components/daily-check/2026-03-28_22-43-44_731.md",
     "daily/2026-03-25.md",
     "插值法.md",
-    "components/daily-check/2026-03-27_13-14-05_077.md",
     "tool/Users/yangxiaomao/Library",
     "tool/Users/yangxiaomao",
     "tool/Users",
