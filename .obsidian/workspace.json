@@ -6,7 +6,7 @@
       {
         "id": "9d086532c511048d",
         "type": "tabs",
-        "dimension": 63.13056379821958,
+        "dimension": 61.275964391691396,
         "children": [
           {
             "id": "220af336afe2999c",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-04-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-04-10"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "d2ebaa57e3a28800",
         "type": "split",
-        "dimension": 36.86943620178042,
+        "dimension": 38.724035608308604,
         "children": [
           {
             "id": "d226168f69bdfcc6",
@@ -242,47 +242,48 @@
   "left-ribbon": {
     "hiddenItems": {
       "workspaces:管理工作区布局": false,
-      "switcher:打开快速切换": false,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
+      "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
+      "templates:插入模板": true,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
+      "bases:新建数据库": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": true,
+      "obsidian-git:Open Git source control": true,
+      "templater-obsidian:Templater": true,
       "homepage:Open homepage": false
     }
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
     "tool/打卡.md",
+    "components/daily-check/2026-04-10_23-57-40_568.md",
+    "components/daily-check/2026-04-10_23-57-17_252.md",
+    "components/daily-check/2026-04-10_23-57-10_670.md",
+    "未命名.canvas",
+    "daily/2026-04-10.md",
+    "components/daily-check/2026-04-10_23-52-51_326.md",
+    "components/daily-check/2026-04-10_23-52-49_768.md",
+    "components/daily-check/2026-04-10_23-52-30_209.md",
+    "components/daily-check/2026-04-10_23-52-30_042.md",
+    "components/daily-check/2026-04-10_23-52-29_643.md",
+    "components/daily-check/2026-04-10_23-52-23_909.md",
+    "components/daily-check/2026-04-10_23-52-23_775.md",
+    "components/daily-check/2026-04-10_23-52-23_642.md",
+    "components/daily-check/2026-04-10_23-52-23_476.md",
+    "components/daily-check/2026-04-10_23-52-23_242.md",
+    "components/daily-check/2026-04-10_23-52-22_843.md",
+    "components/daily-check/2026-04-10_23-52-21_799.md",
+    "components/daily-check/2026-04-10_23-52-21_428.md",
+    "components/daily-check/2026-04-10_23-52-19_961.md",
+    "components/daily-check/2026-04-10_23-52-19_459.md",
+    "components/daily-check/2026-04-10_23-52-18_376.md",
+    "components/daily-check/2026-04-10_23-52-17_264.md",
     "components/daily-check/2026-04-09_22-31-10_941.md",
     "components/daily-check/2026-04-09_22-31-10_188.md",
     "components/daily-check/2026-04-09_22-31-09_057.md",
-    "daily/2026-04-09.md",
-    "tool/统计.md",
-    "最短路~.md",
-    "最短路.md",
-    "Untitled.md",
-    "python.md",
-    "components/daily-check/2026-04-07_22-27-52_010.md",
-    "components/daily-check/2026-04-07_22-27-51_224.md",
-    "components/daily-check/2026-04-07_22-27-49_823.md",
-    "components/daily-check/2026-04-07_22-27-44_524.md",
-    "components/daily-check/2026-04-07_22-27-43_573.md",
-    "components/daily-check/2026-04-07_22-27-42_540.md",
-    "components/daily-check/2026-04-07_22-27-42_107.md",
-    "components/daily-check/2026-04-07_22-27-41_624.md",
-    "components/daily-check/2026-04-07_22-27-41_075.md",
-    "components/daily-check/2026-04-07_22-27-40_012.md",
-    "daily/2026-04-07.md",
-    "daily/2026-04-01.md",
-    "daily/2026-04-02.md",
-    "components/daily-check/2026-04-01_22-32-41_522.md",
-    "components/daily-check/2026-04-01_22-32-39_878.md",
-    "daily/2026-03-31.md",
     "tool/Users/yangxiaomao/Library",
     "tool/Users/yangxiaomao",
     "tool/Users",
@@ -292,7 +293,6 @@
     "Python/学习Python 的100天",
     "Python",
     "Attachments",
-    "attachment/2026牛客寒假算法基础集训营第二场PDF题面.pdf",
-    "未命名.canvas"
+    "attachment/2026牛客寒假算法基础集训营第二场PDF题面.pdf"
   ]
 }

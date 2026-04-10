@@ -8,7 +8,7 @@
           {
             "id": "9d086532c511048d",
             "type": "tabs",
-            "dimension": 63.13056379821958,
+            "dimension": 61.275964391691396,
             "children": [
               {
                 "id": "220af336afe2999c",
@@ -29,7 +29,7 @@
           {
             "id": "d2ebaa57e3a28800",
             "type": "split",
-            "dimension": 36.86943620178042,
+            "dimension": 38.724035608308604,
             "children": [
               {
                 "id": "d226168f69bdfcc6",
@@ -243,23 +243,22 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "audio-recorder:开始/结束录音": false,
           "workspaces:管理工作区布局": false,
-          "switcher:打开快速切换": false,
+          "switcher:打开快速切换": true,
           "graph:查看关系图谱": false,
-          "canvas:新建白板": false,
+          "canvas:新建白板": true,
           "daily-notes:打开/创建今天的日记": false,
-          "templates:插入模板": false,
+          "templates:插入模板": true,
           "command-palette:打开命令面板": false,
-          "bases:新建数据库": false,
-          "obsidian-excalidraw-plugin:新建绘图文件": false,
-          "obsidian-git:Open Git source control": false,
-          "templater-obsidian:Templater": false,
+          "bases:新建数据库": true,
+          "obsidian-excalidraw-plugin:新建绘图文件": true,
+          "obsidian-git:Open Git source control": true,
+          "templater-obsidian:Templater": true,
           "homepage:Open homepage": false
         }
       },
-      "active": "20a422c78060a7bb",
-      "mtime": "2026-01-19T12:15:08+08:00"
+      "active": "220af336afe2999c",
+      "mtime": "2026-04-10T23:57:36+08:00"
     },
     "new": {
       "main": {

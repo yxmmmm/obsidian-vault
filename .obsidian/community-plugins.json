@@ -10,9 +10,9 @@
   "dataview",
   "obsidian-excalidraw-plugin",
   "obsidian-tasks-plugin",
-  "components",
   "contribution-graph",
   "obsidian-advanced-uri",
   "multi-column-markdown",
-  "homepage"
+  "homepage",
+  "components"
 ]
