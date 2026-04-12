@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8df733147fa6d689",
@@ -257,9 +256,10 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "Claude Code - Plugin与Skill安装记录.md",
+    "daily/2026-04-11.md",
     "python.md",
     "Gemini给的algorithm建议.md",
-    "daily/2026-04-11.md",
     "algorithm/最短路~.md",
     "algorithm/最短路.md",
     "tool/统计.md",
@@ -283,7 +283,6 @@
     "components/daily-check/2026-04-10_23-52-23_476.md",
     "components/daily-check/2026-04-10_23-52-23_242.md",
     "components/daily-check/2026-04-10_23-52-22_843.md",
-    "components/daily-check/2026-04-10_23-52-21_799.md",
     "tool/Users/yangxiaomao/Library",
     "tool/Users/yangxiaomao",
     "tool/Users",
