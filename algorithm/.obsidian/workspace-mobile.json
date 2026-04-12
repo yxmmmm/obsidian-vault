@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "高精度.md",
+                "file": "KMP.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "高精度"
+              "title": "KMP"
             }
           }
         ]
@@ -170,8 +170,8 @@
   },
   "active": "ba6797257e5dd557",
   "lastOpenFiles": [
-    "STL.md",
     "高精度.md",
+    "STL.md",
     "KMP.md",
     "位运算.md",
     "trick.md",
