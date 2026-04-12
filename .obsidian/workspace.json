@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-04-11.md",
+                "file": "daily/2026-04-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-11"
+              "title": "2026-04-12"
             }
           }
         ]
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8df733147fa6d689",
@@ -256,17 +257,21 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
-    "插值~.md",
+    "tool/统计.md",
+    "daily/2026-04-12.md",
+    "tool/打卡.md",
+    "components/daily-check/2026-04-12_22-33-54_323.md",
+    "components/daily-check/2026-04-12_22-33-52_940.md",
+    "components/daily-check/2026-04-12_22-33-51_946.md",
     "插值.md",
+    "daily/2026-04-11.md",
+    "插值~.md",
     "Untitled.md",
     "Claude Code - Plugin与Skill安装记录.md",
-    "daily/2026-04-11.md",
     "python.md",
     "Gemini给的algorithm建议.md",
     "algorithm/最短路~.md",
     "algorithm/最短路.md",
-    "tool/统计.md",
-    "tool/打卡.md",
     "components/daily-check/2026-04-11_21-33-55_731.md",
     "components/daily-check/2026-04-11_21-33-53_537.md",
     "components/daily-check/2026-04-11_21-33-47_069.md",
@@ -279,10 +284,6 @@
     "components/daily-check/2026-04-10_23-52-49_768.md",
     "components/daily-check/2026-04-10_23-52-30_209.md",
     "components/daily-check/2026-04-10_23-52-30_042.md",
-    "components/daily-check/2026-04-10_23-52-29_643.md",
-    "components/daily-check/2026-04-10_23-52-23_909.md",
-    "components/daily-check/2026-04-10_23-52-23_775.md",
-    "components/daily-check/2026-04-10_23-52-23_642.md",
     "tool/Users/yangxiaomao/Library",
     "tool/Users/yangxiaomao",
     "tool/Users",
