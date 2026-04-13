@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KMP.md",
+                "file": "STL.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KMP"
+              "title": "STL"
             }
           }
         ]
@@ -170,9 +170,10 @@
   },
   "active": "ba6797257e5dd557",
   "lastOpenFiles": [
+    "KMP.md",
+    "最短路.md",
     "高精度.md",
     "STL.md",
-    "KMP.md",
     "位运算.md",
     "trick.md",
     "双指针.md"
