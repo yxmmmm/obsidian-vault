@@ -71,3 +71,13 @@ int k=(x%N+N)%N;
 0x3f3f3f3f * 2 = 2122219134，无穷大相加依然不会溢出。
 可以使用memset(array, 0x3f, sizeof(array))来为数组设初值为0x3f3f3f3f，因为这个数的每个字节都是0x3f。
 
+
+
+# 通过空格分割一行的两部分
+
+```cpp
+string a, b;
+getline(cin, a, ' ');  // 读到第一个空格为止，存入 a
+getline(cin, b);       // 读剩余整行，存入 b
+```
+
