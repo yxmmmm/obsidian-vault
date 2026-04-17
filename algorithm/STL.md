@@ -386,6 +386,7 @@ printf("%s",a.c_str());//.c_str()返回数组首地址
 | 尾接字符串             | `+=`                          | `s += "awa";`                   |
 | 取子串                 | `.substr(起始下标, 子串长度)` | `string sub = s.substr(2, 10);` |
 | 查找字符串             | `.find(字符串, 起始下标)`     | `int pos = s.find("awa");`      |
+| 删除元素               | `.erase(起始位置，元素个数)`  | `s.erase(1, 3);`                |
 ```cpp
 string s1="123123"
 if(s1.find(312)!=string::npos)
