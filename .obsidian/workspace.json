@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-04-14.md",
+                "file": "daily/2026-04-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-14"
+              "title": "2026-04-17"
             }
           }
         ]
@@ -255,8 +255,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20a422c78060a7bb",
+  "active": "b0f643148154128b",
   "lastOpenFiles": [
+    "tool/打卡.md",
+    "components/daily-check/2026-04-17_22-45-47_098.md",
+    "daily/2026-04-17.md",
+    "tool/统计.md",
+    "daily/2026-04-14.md",
     "components/daily-check/2026-04-17_21-31-50_118.md",
     "components/daily-check/2026-04-17_21-31-49_118.md",
     "components/daily-check/2026-04-17_21-31-47_657.md",
@@ -266,10 +271,7 @@
     "components/daily-check/2026-04-14_22-08-02_657.md",
     "components/daily-check/2026-04-14_22-08-00_507.md",
     "components/daily-check/2026-04-14_22-07-59_478.md",
-    "daily/2026-04-14.md",
-    "tool/统计.md",
     "daily/2026-04-13.md",
-    "tool/打卡.md",
     "daily/2026-04-12.md",
     "components/daily-check/2026-04-12_22-33-54_323.md",
     "components/daily-check/2026-04-12_22-33-52_940.md",
@@ -281,8 +283,6 @@
     "Claude Code - Plugin与Skill安装记录.md",
     "python.md",
     "Gemini给的algorithm建议.md",
-    "algorithm/最短路~.md",
-    "algorithm/最短路.md",
     "未命名.canvas",
     "tool/Users/yangxiaomao/Library",
     "tool/Users/yangxiaomao",
