@@ -87,3 +87,18 @@ getline(cin, b);       // 读剩余整行，存入 b
 getline(cin, b);
 ```
 
+# 边遍历边删除
+
+注意后退一位
+
+```cpp
+for (int i = 0; a[i]; i++)
+    {
+        if (mp[a[i]] == true)
+            {
+                a.erase(i, 1);
+                i--;
+            }
+    }
+```
+
