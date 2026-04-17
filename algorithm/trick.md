@@ -81,3 +81,9 @@ getline(cin, a, ' ');  // 读到第一个空格为止，存入 a
 getline(cin, b);       // 读剩余整行，存入 b
 ```
 
+# 读取整行
+
+```cpp
+getline(cin, b);
+```
+
