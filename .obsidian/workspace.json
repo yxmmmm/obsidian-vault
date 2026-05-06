@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/monthly report/2026年4月总结.md",
+                "file": "daily/2026-05-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026年4月总结"
+              "title": "2026-05-06"
             }
           }
         ]
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8df733147fa6d689",
@@ -256,17 +257,19 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
-    "blog/monthly report/2026年3月总结.md",
-    "blog/monthly report/2026年4月总结.md",
-    "blog/monthly report/2026年二月总结.md",
     "tool/打卡.md",
+    "components/daily-check/2026-05-06_22-05-33_478.md",
+    "daily/2026-05-06.md",
+    "tool/统计.md",
+    "blog/monthly report/2026年4月总结.md",
+    "blog/monthly report/2026年3月总结.md",
+    "blog/monthly report/2026年二月总结.md",
     "components/daily-check/2026-05-05_19-00-37_352.md",
     "components/daily-check/2026-05-05_18-58-17_926.md",
     "components/daily-check/2026-05-05_18-58-15_485.md",
     "components/daily-check/2026-05-05_18-58-13_369.md",
     "components/daily-check/2026-05-05_18-58-12_754.md",
     "components/daily-check/2026-05-05_18-58-12_026.md",
-    "tool/统计.md",
     "components/daily-check/2026-04-29_22-22-54_510.md",
     "components/daily-check/2026-04-29_22-22-54_276.md",
     "components/daily-check/2026-04-29_22-22-53_394.md",
@@ -280,8 +283,6 @@
     "components/daily-check/2026-04-29_22-22-46_759.md",
     "components/daily-check/2026-04-29_22-22-46_009.md",
     "components/daily-check/2026-04-29_22-22-45_201.md",
-    "components/daily-check/2026-04-29_22-22-44_015.md",
-    "components/daily-check/2026-04-29_22-22-40_794.md",
     "未命名.canvas",
     "tool/Users/yangxiaomao/Library",
     "tool/Users/yangxiaomao",
