@@ -4,5 +4,11 @@
   "attachmentFolderPath": "attachment",
   "alwaysUpdateLinks": true,
   "showInlineTitle": false,
-  "openBehavior": "daily"
+  "openBehavior": "daily",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
