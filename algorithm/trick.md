@@ -102,3 +102,16 @@ for (int i = 0; a[i]; i++)
     }
 ```
 
+
+
+# getline
+
+```cpp
+//假如getline前有输入，残留换行会干扰读入
+cin>>t;
+
+cin.ignore();//重要操作
+
+getline(cin,str);
+```
+
