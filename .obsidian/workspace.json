@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-05-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-05-15"
             }
           }
         ]
@@ -257,6 +257,8 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
+    "daily/2026-05-15.md",
     "tool/打卡.md",
     "components/daily-check/2026-05-14_23-44-06_529.md",
     "components/daily-check/2026-05-14_23-44-03_197.md",
@@ -269,7 +271,6 @@
     "components/daily-check/2026-05-14_23-43-52_986.md",
     "components/daily-check/2026-05-14_23-43-52_049.md",
     "daily/2026-05-14.md",
-    "tool/统计.md",
     "daily/2026-05-11.md",
     "algorithm/最短路~.md",
     "algorithm/trick~.md",
@@ -283,7 +284,6 @@
     "components/daily-check/2026-05-07_22-35-51_037.md",
     "components/daily-check/2026-05-07_22-35-49_710.md",
     "daily/2026-05-07.md",
-    "daily/2026-05-06.md",
     "未命名.canvas",
     "tool/Users/yangxiaomao/Library",
     "tool/Users/yangxiaomao",
