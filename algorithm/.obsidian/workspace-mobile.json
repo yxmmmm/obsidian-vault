@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL.md",
-                "mode": "preview",
+                "file": "最小生成树和二分图.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STL"
+              "title": "最小生成树和二分图"
             }
           }
         ]
@@ -170,10 +170,10 @@
   },
   "active": "ba6797257e5dd557",
   "lastOpenFiles": [
+    "STL.md",
     "KMP.md",
     "最短路.md",
     "高精度.md",
-    "STL.md",
     "位运算.md",
     "trick.md",
     "双指针.md"
