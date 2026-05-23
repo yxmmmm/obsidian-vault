@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-05-21.md",
+                "file": "daily/2026-05-23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-21"
+              "title": "2026-05-23"
             }
           }
         ]
@@ -257,6 +257,8 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
+    "daily/2026-05-23.md",
     "algorithm/trick~.md",
     "math modeling/数模trick.md",
     "algorithm/最小生成树和二分图~.md",
@@ -270,7 +272,6 @@
     "components/daily-check/2026-05-21_20-45-12_303.md",
     "components/daily-check/2026-05-21_20-45-11_831.md",
     "components/daily-check/2026-05-21_20-45-10_576.md",
-    "tool/统计.md",
     "daily/2026-05-19.md",
     "daily/2026-05-18.md",
     "algorithm/最小生成树和二分图.md",
@@ -282,7 +283,6 @@
     "components/daily-check/2026-05-18_22-53-52_014.md",
     "components/daily-check/2026-05-18_22-53-51_264.md",
     "components/daily-check/2026-05-18_22-53-49_727.md",
-    "components/daily-check/2026-05-18_22-53-45_732.md",
     "未命名.pdf",
     "未命名.canvas",
     "tool/Users/yangxiaomao/Library",
