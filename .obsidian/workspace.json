@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8df733147fa6d689",
@@ -256,8 +257,9 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "python.md",
     "tool/统计.md",
+    "conflict-files-obsidian-git.md",
     "数据结构内部排序学习报告.md",
     "daily/2026-05-31.md",
     "daily/2026-05-27.md",
@@ -281,7 +283,6 @@
     "components/daily-check/2026-05-21_20-45-13_097.md",
     "components/daily-check/2026-05-21_20-45-12_303.md",
     "components/daily-check/2026-05-21_20-45-11_831.md",
-    "components/daily-check/2026-05-21_20-45-10_576.md",
     "未命名.pdf",
     "未命名.canvas",
     "tool/Users/yangxiaomao/Library",
