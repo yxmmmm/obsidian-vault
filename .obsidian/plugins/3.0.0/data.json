@@ -2,9 +2,18 @@
   "createComponentSilent": false,
   "receiveBetaVersion": false,
   "folder": "components/view",
-  "formFolder": "components/form",
   "scriptFolder": "components/script",
   "enableDebug": false,
   "debugLogOutputFolder": "components/logs",
+  "aiBaseFolder": "components/ai",
+  "homepage": {
+    "path": null,
+    "mobilePath": null,
+    "showOnStartup": true,
+    "showOnEmpty": true,
+    "showOnNewEmptyTab": false
+  },
+  "aiProviders": [],
+  "formFolder": "components/form",
   "fileEntrypoints": {}
 }
