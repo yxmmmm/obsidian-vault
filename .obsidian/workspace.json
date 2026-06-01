@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-06-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-06-01"
             }
           }
         ]
@@ -257,15 +257,16 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
+    "tool/统计.md",
+    "daily/2026-06-01.md",
+    "tool/打卡.md",
     "algorithm/差分.md",
     "未命名.md",
-    "tool/统计.md",
     "python.md",
     "conflict-files-obsidian-git.md",
     "数据结构内部排序学习报告.md",
     "daily/2026-05-31.md",
     "daily/2026-05-27.md",
-    "tool/打卡.md",
     "components/daily-check/2026-05-27_21-15-08_068.md",
     "components/daily-check/2026-05-27_21-15-06_036.md",
     "components/daily-check/2026-05-27_21-15-02_785.md",
@@ -282,7 +283,6 @@
     "components/daily-check/2026-05-21_20-46-26_173.md",
     "daily/2026-05-21.md",
     "components/daily-check/2026-05-21_20-45-16_456.md",
-    "components/daily-check/2026-05-21_20-45-13_097.md",
     "未命名.pdf",
     "未命名.canvas",
     "tool/Users/yangxiaomao/Library",
