@@ -241,7 +241,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:New drawing": false,
       "workspaces:管理工作区布局": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
@@ -250,6 +249,7 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": true,
       "obsidian-git:Open Git source control": true,
       "templater-obsidian:Templater": true,
       "homepage:Open homepage": false
@@ -257,11 +257,9 @@
   },
   "active": "220af336afe2999c",
   "lastOpenFiles": [
-    "python.md",
-    "tool/统计.md",
-    "conflict-files-obsidian-git.md",
-    "数据结构内部排序学习报告.md",
+    "260531_wf061017@163.com_components_license.md",
     "daily/2026-05-31.md",
+    "tool/统计.md",
     "daily/2026-05-27.md",
     "tool/打卡.md",
     "components/daily-check/2026-05-27_21-15-08_068.md",
@@ -283,6 +281,8 @@
     "components/daily-check/2026-05-21_20-45-13_097.md",
     "components/daily-check/2026-05-21_20-45-12_303.md",
     "components/daily-check/2026-05-21_20-45-11_831.md",
+    "components/daily-check/2026-05-21_20-45-10_576.md",
+    "daily/2026-05-19.md",
     "未命名.pdf",
     "未命名.canvas",
     "tool/Users/yangxiaomao/Library",
