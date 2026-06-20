@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/统计.md",
+                "file": "daily/2026-06-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计"
+              "title": "2026-06-20"
             }
           }
         ]
@@ -258,6 +258,7 @@
   "active": "220af336afe2999c",
   "lastOpenFiles": [
     "tool/统计.md",
+    "daily/2026-06-20.md",
     "daily/2026-06-10.md",
     "tool/打卡.md",
     "components/daily-check/2026-06-08_22-18-46_873.md",
@@ -282,7 +283,6 @@
     "algorithm/差分.md",
     "未命名.md",
     "python.md",
-    "conflict-files-obsidian-git.md",
     "未命名.pdf",
     "未命名.canvas",
     "tool/Users/yangxiaomao/Library",
