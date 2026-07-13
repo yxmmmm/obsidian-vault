@@ -4,4 +4,6 @@
 config.json
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/graph.json
+conflict-files-obsidian-git.md
 .DS_Store
