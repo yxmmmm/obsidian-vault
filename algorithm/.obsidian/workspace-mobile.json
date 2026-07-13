@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "最小生成树和二分图.md",
-                "mode": "source",
+                "file": "KMP.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "最小生成树和二分图"
+              "title": "KMP"
             }
           }
         ]
@@ -168,15 +168,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "ba6797257e5dd557",
+  "active": "f8a1ed88b40fab67",
   "lastOpenFiles": [
-    "dfs.md",
-    "最小生成树和二分图.md",
     "STL.md",
-    "KMP.md",
     "最短路.md",
-    "高精度.md",
+    "最小生成树和二分图.md",
+    "bfs.md",
     "位运算.md",
+    "哈希表.md",
+    "dfs.md",
+    "KMP.md",
+    "高精度.md",
     "trick.md",
     "双指针.md"
   ]
