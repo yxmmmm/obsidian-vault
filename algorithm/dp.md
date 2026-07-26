@@ -161,3 +161,46 @@ signed main()
 可以理解为每一个种类的每一份的地位是相同的都看作完全独立的一份
 
 每一份只有选和不选两种情况01dp
+
+## 分组dp
+
+![8416f90c9819cf8f839d0382d249db65](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault8416f90c9819cf8f839d0382d249db65.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+const int N = 110;
+int s[N], v[N][N], w[N][N];
+int f[N];
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int n, m;
+    cin >> n >> m;
+    for (int i = 1; i <= n; i++)
+    {
+        cin >> s[i];
+        for (int j = 0; j < s[i]; j++)
+            cin >> v[i][j] >> w[i][j];
+    }
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = m; j >= 0; j--)
+        {
+            for (int k = 0; k < s[i]; k++)
+            {
+                if (v[i][k] <= j)
+                {
+                    f[j] = max(f[j], f[j - v[i][k]] + w[i][k]);
+                }
+            }
+        }
+    }
+    cout << f[m];
+}
+```
+
