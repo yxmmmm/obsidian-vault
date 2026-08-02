@@ -204,3 +204,162 @@ signed main()
 }
 ```
 
+# 线性dp
+
+![f3059d87c47e25e28d9ddbc030924a95](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvaultf3059d87c47e25e28d9ddbc030924a95.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+const int N = 510;
+int f[N][N];
+int a[N][N];
+int n, INF = 1e9;
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cin >> n;
+    memset(f, 0x8f, sizeof(f));
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+            cin >> a[i][j];
+    }
+    f[1][1] = a[1][1];
+    for (int i = 2; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            f[i][j] = max(f[i - 1][j - 1] + a[i][j], f[i - 1][j] + a[i][j]);
+        }
+    }
+    int res = -INF;
+    for (int i = 1; i <= n; i++)
+    {
+        res = max(res, f[n][i]);
+    }
+    cout << res << endl;
+}
+```
+
+![00de498a9f39a78b2323a29951be867c](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault00de498a9f39a78b2323a29951be867c.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+const int N = 1010;
+int a[N], f[N];
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int t;
+    cin >> t;
+    for (int i = 1; i <= t; i++)
+        cin >> a[i];
+
+    for (int i = 1; i <= t; i++)
+    {
+        f[i] = 1;
+        for (int j = 1; j < i; j++)
+        {
+            if (a[j] < a[i])
+            {
+                f[i] = max(f[i], f[j] + 1);
+            }
+        }
+    }
+    int maxx = 0;
+    for (int i = 1; i <= t; i++)
+    {
+        maxx = max(maxx, f[i]);
+    }
+
+    cout << maxx << endl;
+}
+```
+
+![61ee1af842fda0d3eabdf7f644e63299](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault61ee1af842fda0d3eabdf7f644e63299.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+const int N = 1010;
+int n, m;
+int f[N][N];
+char a[N], b[N];
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    cin >> n >> m;
+    for (int i = 1; i <= n; i++)
+        cin >> a[i];
+    for (int i = 1; i <= m; i++)
+        cin >> b[i];
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= m; j++)
+        {
+            f[i][j] = max(f[i - 1][j], f[i][j - 1]);
+            if (a[i] == b[j])
+                f[i][j] = max(f[i][j], f[i - 1][j - 1] + 1); // 只有a[i]==b[j]时才需要第三种
+        }
+    }
+    cout << f[n][m] << endl;
+}
+```
+
+# 区间dp
+
+![1532af1496a2d80517ed8941c6d6f479](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault1532af1496a2d80517ed8941c6d6f479.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+const int N = 310;
+int f[N][N];
+int s[N];
+int n;
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+        cin >> s[i];
+    for (int i = 1; i <= n; i++)
+        s[i] += s[i - 1];
+    for (int len = 2; len <= n; len++)
+    {
+        for (int i = 1; i + len - 1 <= n; i++)
+        {
+            int j = len + i - 1;
+            f[i][j] = 1e18;
+            for (int k = i; k < j; k++)
+                f[i][j] = min(f[i][j], f[i][k] + f[k + 1][j] + s[j] - s[i - 1]);
+        }
+    }
+    cout << f[1][n];
+}
+```
+
