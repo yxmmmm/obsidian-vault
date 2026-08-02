@@ -30,16 +30,21 @@
       "showTitle": true,
       "showShadow": true,
       "createAt": "2026-01-18T12:04:54.093Z",
-      "updateAt": "2026-03-15T10:24:09.803Z",
+      "updateAt": "2026-08-02T14:02:47.921Z",
       "tasks": [
         {
-          "id": "e279b5fc-4bc9-496b-97e7-e478172491bc",
-          "name": "🔤英语单词",
+          "id": "a92672ec-63b2-45fc-889c-ba4fe2c0d2bb",
+          "name": "算法",
           "options": {}
         },
         {
           "id": "b032fcd4-084b-4a4d-b951-9b4b594927df",
           "name": "🏋️健身",
+          "options": {}
+        },
+        {
+          "id": "e279b5fc-4bc9-496b-97e7-e478172491bc",
+          "name": "🔤英语单词",
           "options": {}
         },
         {
