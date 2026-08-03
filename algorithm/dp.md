@@ -363,3 +363,44 @@ signed main()
 }
 ```
 
+# 计数dp
+
+完全背包
+
+![da0a6b1acccdf48523f391045d7f3285](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvaultda0a6b1acccdf48523f391045d7f3285.jpg)
+
+划分个数
+
+![54f5901b6e565985957ef082a20976c0](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault54f5901b6e565985957ef082a20976c0.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+int mod = 1e9 + 7;
+const int N = 1010;
+int f[N][N];
+int n;
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cin >> n;
+    f[0][0] = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            f[i][j] = (f[i - 1][j - 1] + f[i - j][j]) % mod;
+        }
+    }
+    int ans = 0;
+    for (int i = 1; i <= n; i++)
+        ans = (ans + f[n][i]) % mod;
+    cout << ans;
+}
+```
+
