@@ -87,13 +87,13 @@
       "showTitle": true,
       "showShadow": true,
       "createAt": "2026-01-18T11:15:29.116Z",
-      "updateAt": "2026-01-18T11:26:37.770Z",
+      "updateAt": "2026-08-03T03:07:10.288Z",
       "showStartDateTime": false,
       "pictureFit": "cover",
       "picturePosition": "left",
       "timeTextPattern": "d",
       "title": "寒假开始",
-      "startDateTime": "2026-01-15 00:00:00"
+      "startDateTime": "2026-07-08 00:00:00"
     },
     {
       "id": "3a097b3f-044c-4190-8d22-0ee1b97a9022",
@@ -105,7 +105,7 @@
       "showTitle": true,
       "showShadow": true,
       "createAt": "2026-01-18T11:17:13.882Z",
-      "updateAt": "2026-03-29T02:43:31.007Z",
+      "updateAt": "2026-08-03T03:06:25.944Z",
       "repeatType": "none",
       "pictureFit": "cover",
       "picturePosition": "left",
@@ -115,8 +115,8 @@
       "endMinute": 0,
       "endSecond": 0,
       "timeTextPattern": "dH",
-      "title": "距离大一结束",
-      "endYear": 2026,
+      "title": "距离大二结束",
+      "endYear": 2027,
       "endMonth": 6,
       "endDayOfMonth": 1
     },
