@@ -404,3 +404,67 @@ signed main()
 }
 ```
 
+# 数位dp
+
+![5cd19700f5e688857d8abbbb191c5489](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault5cd19700f5e688857d8abbbb191c5489.jpg)![5cd19700f5e688857d8abbbb191c5489](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault18b7eb3bec48d70f68a20eddb0d106f3.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+int power10(int x)
+{
+    int res = 1;
+    while (x--)
+        res *= 10;
+    return res;
+}//10的x次幂
+
+int count(int x, int n)
+{
+    int m = n;
+    int cnt = 0;
+    while (m)
+    {
+        m /= 10;
+        cnt++;
+    }//得到数位长度
+
+    int res = 0;
+    int l;
+    for (int i = 1; i <= cnt; i++)
+    {
+        l = n / power10(i);
+        if (x)
+            res += l * power10(i - 1);
+        else
+            res += (l - 1) * power10(i - 1);//x=0时的前导零边界情况
+
+        int d = (n / power10(i - 1)) % 10;
+        if (d > x)
+            res += power10(i - 1);
+        else if (d == x)
+            res += n % power10(i - 1) + 1;//000-efg
+    }
+    return res;
+}
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int a, b;
+    while (cin >> a >> b, a || b)
+    {
+        if (a > b)
+            swap(a, b);
+        for (int i = 0; i <= 9; i++)
+            cout << count(i, b) - count(i, a - 1) << ' ';//前缀和思想
+        cout << endl;
+    }
+}
+```
+
