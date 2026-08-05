@@ -479,3 +479,37 @@ signed main()
 | **`i - (1 << j)`** | **删除**：从状态 $i$ 中删除第 $j$ 个节点（前提是第 $j$ 位为 1） |
 | **`i | (1 << j)`** | **添加**：向状态 $i$ 中添加第 $j$ 个节点                     |
 | **`i ^ (1 << j)`** | **翻转**：将第 $j$ 位取反（1 变 0，0 变 1）                  |
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+const int N = 20, M = 1 << N;//利用二进制存储路径状态
+int f[M][N];
+int a[N][N];
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int n;
+    cin >> n;
+    memset(f, 0x3f, sizeof f);
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
+            cin >> a[i][j];
+
+    f[1][0] = 0;//初始化起点终点都为0路径长度为0
+
+    for (int i = 0; i < 1 << n; i++)//枚举不同状态
+        for (int j = 0; j < n; j++)
+            if (i >> j & 1)//判断j是否在路过
+                for (int k = 0; k < n; k++)
+                    if ((i - (1 << j)) >> k & 1)//回退j并判断k是否路过
+                        f[i][j] = min(f[i][j], f[i - (1 << j)][k] + a[k][j]);
+
+    cout << f[(1 << n) - 1][n - 1] << endl;
+}
+```
+
