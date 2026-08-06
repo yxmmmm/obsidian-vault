@@ -513,3 +513,71 @@ signed main()
 }
 ```
 
+![5588e18a5d9b57b35823f74ae1c2d636](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault5588e18a5d9b57b35823f74ae1c2d636.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+const int N = 12, M = 1 << N;
+int f[N][M];
+int n, m;
+vector<vector<int>> state(M);//等效二维数组
+bool st[M];
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    while (cin >> n >> m, m || n)
+    {
+        //预处理1：判断状态是否合法
+        for (int i = 0; i < 1 << n; i++)
+        {
+            int cnt = 0;
+            bool ok = true;
+            for (int j = 0; j < n; j++)//最多移动n-1位
+            {
+                if (i >> j & 1)
+                {
+                    if (cnt & 1)//判断cnt奇偶
+                    {
+                        cnt = 0;
+                        ok = false;
+                        break;
+                    }
+                }
+                else
+                    cnt++;
+            }
+            if (cnt & 1)//最后一段假如是0是否合法
+                ok = false;
+            st[i] = ok;
+        }
+
+        //预处理2：根据已知i列状态储存合法i-1类状态，减少dp过程无效枚举次数
+        for (int i = 0; i < 1 << n; i++)
+        {
+            state[i].clear();
+            for (int j = 0; j < 1 << n; j++)
+                if ((i & j) == 0 && st[i | j])
+                    state[i].push_back(j);
+        }
+
+        memset(f, 0, sizeof f);
+        f[0][0] = 1;//初始化引子，第一列不可能有伸出所以状态一定为0，一种情况
+        for (int i = 1; i <= m; i++)
+        {
+            for (int j = 0; j < 1 << n; j++)
+            {
+                for (auto k : state[j])
+                    f[i][j] += f[i - 1][k];
+            }
+        }
+        cout << f[m][0] << endl;//列下标最大到m-1，因此m列不可能有伸出
+    }
+}
+```
+
