@@ -581,3 +581,119 @@ signed main()
 }
 ```
 
+# 树形dp
+
+![](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault6f686c7c6be28b0cb7d9e02728be1bcb.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+const int N = 6010;
+int e[N], h[N], ne[N], idx;
+bool hasfather[N];
+int f[N][2];
+int happy[N];
+
+void add(int a, int b)
+{
+    e[idx] = b;
+    ne[idx] = h[a];
+    h[a] = idx++;
+}
+
+void dfs(int u)
+{
+    f[u][1] = happy[u]; // 先把满意度存入
+    for (int i = h[u]; ~i; i = ne[i])
+    {
+        int s = e[i];
+        dfs(s);
+        f[u][0] += max(f[s][1], f[s][0]);
+        f[u][1] += f[s][0]; // 状态转移方程
+    }
+}
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; i++) // 注意下标
+        cin >> happy[i];
+
+    memset(h, -1, sizeof h); // 初始化邻接表
+
+    int a, b;
+    for (int i = 0; i < n - 1; i++)
+    {
+        cin >> a >> b;
+        add(b, a);
+        hasfather[a] = true; // 标记有父节点
+    }
+
+    int root = 1;
+    while (hasfather[root])
+        root++;                          // 找根节点
+    dfs(root);                           // 从根节点遍历
+    cout << max(f[root][1], f[root][0]); // 取根节点最大值
+}
+```
+
+
+
+# 记忆化搜索
+
+![29a737ce0a99c2386be4b528eb43b7eb](https://tuchuang-1387570672.cos.ap-nanjing.myqcloud.com/obsidianvault29a737ce0a99c2386be4b528eb43b7eb.jpg)
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+
+const int N = 310;
+int h[N][N]; // 高度
+int f[N][N];
+int n, m;
+
+int dx[4] = {-1, 0, 1, 0}, dy[4] = {0, 1, 0, -1};//四种方向
+
+int dp(int x, int y)
+{
+    int &v = f[x][y];//cpp特性，v相当于f[x][y]
+    if (v != -1)
+        return v;//无需重复递归
+    v = 1;//初始化当前位置
+    for (int i = 0; i < 4; i++)
+    {
+        int a = x + dx[i], b = y + dy[i];
+        if (a >= 0 && a <= n - 1 && b >= 0 && b <= m - 1 && h[a][b] < h[x][y])
+            v = max(v, dp(a, b) + 1);
+    }
+    return v;
+}
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    cin >> n >> m;
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < m; j++)
+            cin >> h[i][j];
+
+    memset(f, -1, sizeof f);//初始化f为-1
+
+    int res = 0;
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < m; j++)
+            res = max(res, dp(i, j));
+    cout << res;
+}
+```
+
