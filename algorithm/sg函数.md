@@ -194,3 +194,39 @@ signed main()
 }
 ```
 
+# P7589 黑白棋（2021 CoE-II B）
+
+https://www.luogu.com.cn/problem/P7589
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+#define int long long
+int T, n, k, d, y, x1, x2;
+
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cin >> T;
+    while (T--)
+    {
+        cin >> n >> k >> d;
+        int res = 0;
+        for (int i = 0; i < n; i++)
+        {
+            cin >> y >> x1 >> x2;
+            int x = abs(x1 - x2) - 1;
+            res ^= x;
+        }
+        if (res)
+            cout << "Yes" << endl;
+        else
+            cout << "No" << endl;
+    }
+}
+```
+
+基本相当于nim游戏
+
