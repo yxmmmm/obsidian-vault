@@ -17,9 +17,9 @@ int n, m;
 int sg(int x)
 {
     if (f[x] != -1)
-        return f[x];
+        return f[x];//记忆化搜索
 
-    unordered_set<int> S;
+    unordered_set<int> S;//hash表记录一步可达的sg值
     for (int i = 0; i < m; i++)
     {
         if (x >= s[i])
@@ -27,7 +27,7 @@ int sg(int x)
     }
     for (int i = 0;; i++)
         if (!S.count(i))
-            return f[x] = i;
+            return f[x] = i;//从0遍历
 }
 signed main()
 {
@@ -44,7 +44,7 @@ signed main()
     {
         int x;
         cin >> x;
-        res ^= sg(x);
+        res ^= sg(x);//多堆用抑或相连
     }
     if (res)
         cout << "Yes" << endl;
@@ -96,22 +96,31 @@ sg函数
 using namespace std;
 #define endl '\n'
 #define int long long
-
-const int N = 110, M = 10010;
+const int N = 110, M = 100010;
 int s[N], f[M];
-int n, m;
+int n;
 
 int sg(int x)
 {
     if (f[x] != -1)
         return f[x];
 
-    unordered_set<int> S;
-    for (int i = 0; i < m; i++)
+    int xx = x;
+    int max = 0, min = 10e9;
+    while (xx)
     {
-        if (x >= s[i])
-            S.insert(sg(x - s[i]));
+        int tmp = xx % 10;
+        if (tmp > max)
+            max = tmp;
+        if (tmp < min && tmp != 0)
+            min = tmp;
+        xx /= 10;
     }
+
+    unordered_set<int> S;
+    S.insert(sg(x - max));
+    S.insert(sg(x - min));
+    //优化可用递推，sg函数只有0 1 2三个值
     for (int i = 0;; i++)
         if (!S.count(i))
             return f[x] = i;
@@ -120,27 +129,24 @@ signed main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-
     memset(f, -1, sizeof f);
-    cin >> m;
-    for (int i = 0; i < m; i++)
-        cin >> s[i];
-    cin >> n;
-    int res = 0;
-    while (n--)
+    f[0] = 0;
+    int t;
+    cin >> t;
+    while (t--)
     {
-        int x;
-        cin >> x;
-        res ^= sg(x);
+        cin >> n;
+        if (sg(n))
+            cout << "YES" << endl;
+        else
+            cout << "NO" << endl;
     }
-    if (res)
-        cout << "Yes" << endl;
-    else
-        cout << "No" << endl;
 }
 ```
 
 胜负dp
+
+必胜true必败false
 
 ```cpp
 #include <bits/stdc++.h>
@@ -169,7 +175,7 @@ signed main()
                 min = tmp;
             xx /= 10;
         }
-        if (!dp[x - max] || !dp[x - min])
+        if (!dp[x - max] || !dp[x - min])//只要有一种情况使对手必败那么此时必胜
             dp[x] = true;
         else
             dp[x] = false;
